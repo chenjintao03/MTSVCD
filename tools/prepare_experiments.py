@@ -81,6 +81,12 @@ def prepare(config):
         protocol = workspace / folder / 'protocol'
         save(protocol / 'self_split.json', manifest)
         save(protocol / 'self_metadata.json', frames)
+    # The official Vimeo split lists come from the user's local dataset.
+    for folder in ('rt_matched', 'tcm_matched'):
+        for name in ('sep_trainlist.txt', 'sep_testlist.txt'):
+            source = Path(settings['VIMEO_ROOT']) / name
+            if source.is_file():
+                shutil.copy2(source, workspace / folder / 'protocol' / name)
     # Refresh identities for the rendered files, retaining the release/source
     # mapping in Git. These are source fingerprints, never fabricated gate results.
     for p in workspace.glob('*/protocol/experiment.json'):

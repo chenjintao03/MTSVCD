@@ -511,27 +511,6 @@
       "path_or_device_template_changes": true
     },
     {
-      "path": "experiments/cross_dataset/protocol/input_manifest.json",
-      "source_snapshot_path": "cross_dataset/protocol/input_manifest.json",
-      "server_source_sha256": "386e0f61072aac1167b8004ea80403480fa69a0bb6f99e0ee3c9590729e01e0b",
-      "release_sha256": "47a68ad3206d068880c666cd980d1fd6c9c0857549b3563b2c650a5713530dad",
-      "path_or_device_template_changes": true
-    },
-    {
-      "path": "experiments/cross_dataset/protocol/metadata_and_windows.json",
-      "source_snapshot_path": "cross_dataset/protocol/metadata_and_windows.json",
-      "server_source_sha256": "816074168e05990880a07e551ab9abeea663805824f43bec969200b78d8b8b6a",
-      "release_sha256": "cd7b6753e7ee4b49e085a90541fec8433aa2df4988d27a51c8a2be5cd133645f",
-      "path_or_device_template_changes": true
-    },
-    {
-      "path": "experiments/cross_dataset/protocol/runtime_sources.json",
-      "source_snapshot_path": "cross_dataset/protocol/runtime_sources.json",
-      "server_source_sha256": "53f277671c6a58bfb701ad8800643cf81272d9f317d935025c9aa1a533f5d17d",
-      "release_sha256": "7169a65f29da429170be9901f67362ed47671c5534932259d1cdb240a52b14c2",
-      "path_or_device_template_changes": true
-    },
-    {
       "path": "experiments/native420_benchmark/code/common_yuv.py",
       "source_snapshot_path": "benchmark/code/common_yuv.py",
       "server_source_sha256": "e9b7f73c567001c2e1b5a5555ccb4f74b31ac539ba5e9515efe8ba6a3e35671f",
@@ -550,13 +529,6 @@
       "source_snapshot_path": "benchmark/protocol/benchmark.json",
       "server_source_sha256": "296822e593863af65e17f8d26f2ed7ab6deca6fea0c420e3f2b953a53a161e0b",
       "release_sha256": "0eee09b87573cbb74bf72417ef68c0ddaead63ab7beb511bbdbac758ed69d32c",
-      "path_or_device_template_changes": true
-    },
-    {
-      "path": "experiments/native420_benchmark/protocol/input_manifest.json",
-      "source_snapshot_path": "benchmark/protocol/input_manifest.json",
-      "server_source_sha256": "c275a8f1c57c9f61f88c16e109cb96fb8c9b4629b3eb846b640fcc35b825d548",
-      "release_sha256": "c56d2dc81e180fabb6f2303ab2be13d4aad0838c5e239d0441fffdc2f1352a83",
       "path_or_device_template_changes": true
     },
     {
@@ -665,20 +637,6 @@
       "path_or_device_template_changes": true
     },
     {
-      "path": "experiments/rt_endpoint/protocol/self_metadata.json",
-      "source_snapshot_path": "rt_endpoint/protocol/self_metadata.json",
-      "server_source_sha256": "69a8edb5adc341a3e656eed74469f4a64d92d313db07ddab3c1210e283c01553",
-      "release_sha256": "a7302183bf28bf5d799341b4c1747e8dd52123c68270d7fd5062a1f748c865dd",
-      "path_or_device_template_changes": true
-    },
-    {
-      "path": "experiments/rt_endpoint/protocol/shanghai_training_manifest.json",
-      "source_snapshot_path": "rt_endpoint/protocol/shanghai_training_manifest.json",
-      "server_source_sha256": "b7792dae976306deaae02791ce90ed5162738c0452da09a50bf3248ed638c3bf",
-      "release_sha256": "22b743f8904b28f1e9317656d0d34ad0e706d701d95457aa76587f20fca66982",
-      "path_or_device_template_changes": true
-    },
-    {
       "path": "experiments/rt_matched/code/common.py",
       "source_snapshot_path": "rt_matched/code/common.py",
       "server_source_sha256": "72df6d826920607949a283bd321526558002fb9ad8648322c278984a19559217",
@@ -749,27 +707,6 @@
       "path_or_device_template_changes": true
     },
     {
-      "path": "experiments/rt_matched/protocol/self_metadata.json",
-      "source_snapshot_path": "rt_matched/protocol/self_metadata.json",
-      "server_source_sha256": "69a8edb5adc341a3e656eed74469f4a64d92d313db07ddab3c1210e283c01553",
-      "release_sha256": "a7302183bf28bf5d799341b4c1747e8dd52123c68270d7fd5062a1f748c865dd",
-      "path_or_device_template_changes": true
-    },
-    {
-      "path": "experiments/rt_matched/protocol/sep_testlist.txt",
-      "source_snapshot_path": "rt_matched/protocol/sep_testlist.txt",
-      "server_source_sha256": "5870e9167e0b8e3837a7b47521fe4e7f05d8b6f4f87350b58b4e2c31842baabd",
-      "release_sha256": "5870e9167e0b8e3837a7b47521fe4e7f05d8b6f4f87350b58b4e2c31842baabd",
-      "path_or_device_template_changes": false
-    },
-    {
-      "path": "experiments/rt_matched/protocol/sep_trainlist.txt",
-      "source_snapshot_path": "rt_matched/protocol/sep_trainlist.txt",
-      "server_source_sha256": "709c3e2ad825f46baa58744f3b10f8ba6f6e9256f0f70b89dbed6aba1a97f6d6",
-      "release_sha256": "709c3e2ad825f46baa58744f3b10f8ba6f6e9256f0f70b89dbed6aba1a97f6d6",
-      "path_or_device_template_changes": false
-    },
-    {
       "path": "experiments/rt_selection/code/common.py",
       "source_snapshot_path": "rt_selection/code/common.py",
       "server_source_sha256": "72df6d826920607949a283bd321526558002fb9ad8648322c278984a19559217",
@@ -826,13 +763,6 @@
       "path_or_device_template_changes": true
     },
     {
-      "path": "experiments/rt_selection/protocol/self_metadata.json",
-      "source_snapshot_path": "rt_selection/protocol/self_metadata.json",
-      "server_source_sha256": "69a8edb5adc341a3e656eed74469f4a64d92d313db07ddab3c1210e283c01553",
-      "release_sha256": "a7302183bf28bf5d799341b4c1747e8dd52123c68270d7fd5062a1f748c865dd",
-      "path_or_device_template_changes": true
-    },
-    {
       "path": "experiments/rt_vimeo600/code/common_yuv.py",
       "source_snapshot_path": "rt_vimeo600/code/common_yuv.py",
       "server_source_sha256": "e9b7f73c567001c2e1b5a5555ccb4f74b31ac539ba5e9515efe8ba6a3e35671f",
@@ -865,13 +795,6 @@
       "source_snapshot_path": "rt_vimeo600/protocol/experiment.json",
       "server_source_sha256": "9860c845b7ecdd2ea3a7db9b974fe52d52c2f73b96a0f30a58736db03dfedcf4",
       "release_sha256": "7454b8d480c082dbf52860071b6093c5f5aa81ce4bf67d8062e02d310b6d052b",
-      "path_or_device_template_changes": true
-    },
-    {
-      "path": "experiments/rt_vimeo600/protocol/input_manifest.json",
-      "source_snapshot_path": "rt_vimeo600/protocol/input_manifest.json",
-      "server_source_sha256": "c275a8f1c57c9f61f88c16e109cb96fb8c9b4629b3eb846b640fcc35b825d548",
-      "release_sha256": "c56d2dc81e180fabb6f2303ab2be13d4aad0838c5e239d0441fffdc2f1352a83",
       "path_or_device_template_changes": true
     },
     {
@@ -994,32 +917,12 @@
       "path_or_device_template_changes": true
     },
     {
-      "path": "experiments/tcm_matched/protocol/self_metadata.json",
-      "source_snapshot_path": "tcm_matched/protocol/self_metadata.json",
-      "server_source_sha256": "69a8edb5adc341a3e656eed74469f4a64d92d313db07ddab3c1210e283c01553",
-      "release_sha256": "a7302183bf28bf5d799341b4c1747e8dd52123c68270d7fd5062a1f748c865dd",
-      "path_or_device_template_changes": true
-    },
-    {
-      "path": "experiments/tcm_matched/protocol/sep_testlist.txt",
-      "source_snapshot_path": "tcm_matched/protocol/sep_testlist.txt",
-      "server_source_sha256": "5870e9167e0b8e3837a7b47521fe4e7f05d8b6f4f87350b58b4e2c31842baabd",
-      "release_sha256": "5870e9167e0b8e3837a7b47521fe4e7f05d8b6f4f87350b58b4e2c31842baabd",
-      "path_or_device_template_changes": false
-    },
-    {
-      "path": "experiments/tcm_matched/protocol/sep_trainlist.txt",
-      "source_snapshot_path": "tcm_matched/protocol/sep_trainlist.txt",
-      "server_source_sha256": "709c3e2ad825f46baa58744f3b10f8ba6f6e9256f0f70b89dbed6aba1a97f6d6",
-      "release_sha256": "709c3e2ad825f46baa58744f3b10f8ba6f6e9256f0f70b89dbed6aba1a97f6d6",
-      "path_or_device_template_changes": false
-    },
-    {
       "path": "experiments/tcm_matched/references/rt_transforms.py",
       "source_snapshot_path": "tcm_matched/references/rt_transforms.py",
       "server_source_sha256": "8d07100e2e531357f4a315db33e3ae137076b2378d1835888fc6055dfb46fe55",
       "release_sha256": "8d07100e2e531357f4a315db33e3ae137076b2378d1835888fc6055dfb46fe55",
       "path_or_device_template_changes": false
     }
-  ]
+  ],
+  "publication_scope": "Codec and workflow source/configuration files; generated experiment input manifests and runtime records are omitted."
 }

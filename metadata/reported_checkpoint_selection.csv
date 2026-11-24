@@ -1,9 +1,0 @@
-Codec,Training data,Quality levels,Selected updates,Evidence,Known inference weights SHA256
-DCVC-RT,Vimeo-90K,all four QPs,600,reproducibility.json / rt_steps,9240cc79d795dd9980707c804221be1bfe6e430ee6d1308c1edcb229a7b5a70b
-DCVC-RT,UA-DETRAC,all four QPs,500,reproducibility.json / rt_steps,
-DCVC-RT,ShanghaiTech,all four QPs,3000,reproducibility.json / rt_steps,
-DCVC-RT,MTSVCD,all four QPs,2500,reproducibility.json / rt_steps,
-DCVC-TCM,MTSVCD,q1,500,reproducibility.json / tcm_steps,
-DCVC-TCM,MTSVCD,q2,original,reproducibility.json / tcm_steps,
-DCVC-TCM,MTSVCD,q3,3000,reproducibility.json / tcm_steps,
-DCVC-TCM,MTSVCD,q4,3000,reproducibility.json / tcm_steps,

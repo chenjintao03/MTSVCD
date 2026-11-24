@@ -33,3 +33,13 @@ Long_video/
 *.bin
 *.tar.gz
 *.zip
+experiments/**/protocol/input_manifest*.json
+experiments/**/protocol/metadata_and_windows.json
+experiments/**/protocol/runtime_sources.json
+experiments/**/protocol/self_metadata.json
+experiments/**/protocol/*training_manifest.json
+experiments/**/protocol/sep_trainlist.txt
+experiments/**/protocol/sep_testlist.txt
+metadata/evaluation_windows.csv
+metadata/reported_checkpoint_selection.csv
+metadata/reproducibility.json

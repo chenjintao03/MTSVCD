@@ -37,8 +37,8 @@ training sequence.
 
 ## Compression evaluation windows
 
-`metadata/evaluation_windows.csv` records the frozen test inputs: three
-96-frame windows for each of the 82 test videos, totaling 246 windows. For a
+Compression evaluation uses three 96-frame windows for each of the 82 test
+videos, totaling 246 windows. For a
 video with N decoded frames, the zero-based start positions are:
 
 1. Beginning: 0.
@@ -46,10 +46,9 @@ video with N decoded frames, the zero-based start positions are:
 3. End: N − 96.
 
 Each window resets the codec state. I frames occur at positions 0, 32, and 64.
-The CSV also records the original MP4 and raw-YUV input checksums. The original
-video is the aggregation unit; the three windows are not three independent
-scenes. Reported analysis may use its recorded common valid-video set; use the
-corresponding result manifest when reproducing an aggregate.
+The original video is the aggregation unit; the three windows are not three
+independent scenes. Input checksums and result manifests are generated locally.
+The README presents the experiment results as paper figures.
 
 ## Local verification
 
