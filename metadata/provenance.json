@@ -1,0 +1,17 @@
+{
+  "source_manifest_sha256": "f432fdb3a9e55ab0416923d478db70f94f2b3d6794513b5ab17ec74ba939d7ea",
+  "source_frame_metadata_sha256": "69a8edb5adc341a3e656eed74469f4a64d92d313db07ddab3c1210e283c01553",
+  "source_split_version": "2.0",
+  "source_split_date": "2026-10-23",
+  "assignment_preserved": true,
+  "short_videos": 543,
+  "short_frames": 1954744,
+  "short_related_groups": 533,
+  "long_sequences": 47,
+  "split_counts": {
+    "test": 82,
+    "train": 380,
+    "val": 81
+  },
+  "cross_split_related_groups": 0
+}

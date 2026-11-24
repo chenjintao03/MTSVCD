@@ -1,0 +1,69 @@
+{
+  "name": "RT best saved checkpoint within 3000 updates, selected on independent target validation",
+  "version": 1,
+  "arms": [
+    "vimeo",
+    "shanghai",
+    "surveillance",
+    "ua_detrac"
+  ],
+  "candidate_steps": [
+    250,
+    500,
+    750,
+    1000,
+    1250,
+    1500,
+    1750,
+    2000,
+    2250,
+    2500,
+    2750,
+    3000
+  ],
+  "checkpoint_roots": {
+    "vimeo": "@WORKSPACE@/rt_matched/vimeo",
+    "shanghai": "@WORKSPACE@/rt_endpoint/shanghai",
+    "surveillance": "@WORKSPACE@/rt_matched/surveillance",
+    "ua_detrac": "@WORKSPACE@/rt_endpoint/ua_detrac"
+  },
+  "validation": "same frozen81 surveillance validation videos, each begin/middle/end96; all12 saved checkpoints per arm, all four QPs",
+  "qps": [
+    0,
+    21,
+    42,
+    63
+  ],
+  "selection_score": "mean_q(mean_81videos_mean3windows(candidate estimated P R+lambda(q)*w_t*D)/same original model validation mean at q)",
+  "validation_forward": "unchanged existing FP32 differentiable evaluation; model.eval, noisy_rate=False, detach_refs=True; original model splits96 into3x32",
+  "distortion": "same .8 nativeYUV420 weighted MSE + .2 RGB MSE; original hierarchical distortion weights and lambda table",
+  "tie_break": "lowest score; exact ties select earliest saved update",
+  "original_is_candidate": false,
+  "baseline": "original pretrained model shown separately; do not silently replace worse fine-tuned models",
+  "selection_restrictions": "finite full-validation metrics and valid codec only; no old2percent or improvement veto",
+  "test_used_for_selection": false,
+  "selection_order": "freeze all four selection.json before any new test begins",
+  "test": "frozen82 videos each3x96/IP32 QP0,21,42,63 reset64 nativeYUV420, original paired I frozen; same official float reconstruction metrics and true streams",
+  "checkpoint_comparison": "best among12 saved250-step checkpoints, not every optimizer update",
+  "no_training": true,
+  "previous_endpoint_results_retained": true,
+  "post_hoc_analysis": true,
+  "post_hoc_disclosure": "requested after fixed3000 test results were observed; new checkpoint selection uses only independent validation, no new hyperparameter search",
+  "test_reuse": "only exact selected model tensor identity with previous step3000 endpoint allows prior full82 result reuse; otherwise new test",
+  "metric_exception": "preserve undefined MS-SSIM and mark full82 metric invalid; no imputation",
+  "allowed_physical_gpus": [
+    4,
+    5
+  ],
+  "legacy_dcvc_and_uvg_vtm_remain_paused": true,
+  "server_root": "@WORKSPACE@/rt_selection",
+  "code_sha256": {
+    "common.py": "72df6d826920607949a283bd321526558002fb9ad8648322c278984a19559217",
+    "controller.py": "b91cad71c08d8da4d731f03d27824bf72411db2f58a9197db9c0748569ede6a2",
+    "data.py": "c39d2f748cfba5a4a88e06648d784317f7cc8fb67b81fe0a4bf89b079432470f",
+    "evaluate_selected.py": "3cbf9d1615ea982fce2d8a5aab84e007a06d8db1b5babefa69ecf34170b1fc52",
+    "model.py": "d1d6f90390104d2fa974580fe390c67012def815a9a179c1478ccc7bc6f80093",
+    "preflight.py": "2b181756fd03ecf9c149b561f730a7eff0342e7f1df0db41d32969720e3ead4e",
+    "validate_candidates.py": "02f6e2ff4acede93bf0f049ed38bc3d086f8fcba9d5659ed2bc1c94c12e0bde4"
+  }
+}

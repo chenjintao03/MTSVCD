@@ -1,0 +1,80 @@
+{
+  "name": "selfbuilt_yuv420_dcvc_rt_protocol",
+  "version": 1,
+  "test_videos": 82,
+  "windows": 246,
+  "frames_per_window": 96,
+  "intra_period": 32,
+  "i_positions": [
+    0,
+    32,
+    64
+  ],
+  "width": 640,
+  "height": 384,
+  "fps": 30,
+  "rates": 4,
+  "results_per_method": 984,
+  "frames_per_method": 94464,
+  "dataset": "frozen selfbuilt test only; no PKU",
+  "reference": "native decoded 8-bit YUV420 code values; no range remap; no RGB roundtrip; frozen local/server SHA256 identical",
+  "traditional": {
+    "hm": "HM-16.25",
+    "vtm": "VTM-17.0",
+    "structure": "unmodified official lowdelay B, past references only, hierarchical QP, 10-bit internal",
+    "input_bitdepth": 8,
+    "output_bitdepth": 8,
+    "qps": [
+      22,
+      27,
+      32,
+      37
+    ],
+    "qp_source": "four anchor QPs retained from frozen test manifest; RT supplement leaves QP as parameter",
+    "hm_config": "encoder_lowdelay_main10.cfg",
+    "vtm_config": "encoder_lowdelay_vtm.cfg"
+  },
+  "rt": {
+    "i": "cvpr2025_image.pth.tar",
+    "p": "cvpr2025_video.pth.tar",
+    "qps": [
+      0,
+      21,
+      42,
+      63
+    ],
+    "force_zero_thres": 0.12,
+    "reset_interval": 64,
+    "precision": "fp16 official CUDA implementation",
+    "source": "official yuv420 reader; nearest chroma upsample; average-pool chroma downsample",
+    "metric": "official float reconstruction, clamped *255 without rounding"
+  },
+  "tcm": {
+    "i": "intra_psnr_TMM_q1-q4.pth.tar",
+    "p": "inter_psnr_TMM_q1-q4.pth",
+    "precision": "original float32",
+    "lambda_policy": "no lambda override at test time; original quality checkpoints determine operating points",
+    "input_adapter": "shared native420 -> official RT nearest444 -> official RT BT709 full-code-range RGB -> round/clamp RGB8 -> original TCM input; in-memory RGB8 equals PNG RGB8",
+    "output_adapter": "original float reconstruction -> official RT BT709 full-range YCbCr -> 2x2 mean UV -> clamp *255, no output rounding",
+    "note": "TCM official entry point is RGB PNG only; this explicit adapter implements common YUV420 evaluation and includes conversion error"
+  },
+  "metrics": {
+    "psnr": "per-plane official RT calc_psnr; weighted plane PSNR=(6Y+U+V)/8",
+    "ms_ssim": "per-plane official RT calc_msssim; weighted (6Y+U+V)/8",
+    "bpp": "actual stream bytes*8/(96*640*384)",
+    "aggregation": "mean frames -> mean 3 windows per video -> equal mean 82 videos",
+    "bitstreams": "actual bitstreams with headers; independent fresh decoder on all pilots; traditional decoder on every result"
+  },
+  "sources": {
+    "paper": "https://openaccess.thecvf.com/content/CVPR2025/papers/Jia_Towards_Practical_Real-Time_Neural_Video_Compression_CVPR_2025_paper.pdf",
+    "supplement": "https://openaccess.thecvf.com/content/CVPR2025/supplemental/Jia_Towards_Practical_Real-Time_CVPR_2025_supplemental.pdf",
+    "test_conditions": "https://github.com/microsoft/DCVC/blob/main/DCVC-family/test_conditions.md"
+  },
+  "user_exceptions": "96 frames and IP32 replace paper all-frames/IP-1; no claim of exact reproduction of published BD-rate",
+  "storage": "all outputs/cache/temp under D: or @DATASET_ROOT@; original code/env/models/data read-only",
+  "gpu_allowlist": [
+    4,
+    5
+  ],
+  "no_training": true
+}

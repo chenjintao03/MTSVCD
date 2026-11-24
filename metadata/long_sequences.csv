@@ -1,0 +1,48 @@
+id,subset,camera,path,split,reviewed_group_id,effective_category,category_name,label_review_status,usage
+long/cam10,long,cam10,Long_video/cam10/,,rg_bbe2877260fc,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam11,long,cam11,Long_video/cam11/,,rg_c9a028ad21e7,T,Railways and rail transit,accepted,long_term_observation
+long/cam12,long,cam12,Long_video/cam12/,,rg_e01c1db4693c,T,Railways and rail transit,accepted,long_term_observation
+long/cam13,long,cam13,Long_video/cam13/,,rg_2771fb2f1e91,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam14,long,cam14,Long_video/cam14/,,rg_5c1d063287b2,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam15,long,cam15,Long_video/cam15/,,rg_72b2baa091ef,R,Roads and parking areas,accepted,long_term_observation
+long/cam16,long,cam16,Long_video/cam16/,,rg_45428c4bf81c,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam17,long,cam17,Long_video/cam17/,,rg_7b222bbee915,P,Public buildings and recreational places,unreviewed,long_term_observation
+long/cam18,long,cam18,Long_video/cam18/,,rg_7320f6231994,P,Public buildings and recreational places,unreviewed,long_term_observation
+long/cam19,long,cam19,Long_video/cam19/,,rg_2586e96ed3bf,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam20,long,cam20,Long_video/cam20/,,rg_7aac96ddea7c,P,Public buildings and recreational places,unreviewed,long_term_observation
+long/cam21,long,cam21,Long_video/cam21/,,rg_dd82434afc5d,R,Roads and parking areas,unreviewed,long_term_observation
+long/cam22,long,cam22,Long_video/cam22/,,rg_1c2aae5d4423,R,Roads and parking areas,unreviewed,long_term_observation
+long/cam23,long,cam23,Long_video/cam23/,,rg_96f4f9af4eaa,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam24,long,cam24,Long_video/cam24/,,rg_a8b7e7e2e7e9,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam25,long,cam25,Long_video/cam25/,,rg_dae9a8d4c5bc,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam26,long,cam26,Long_video/cam26/,,rg_24d749c5d42c,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam27,long,cam27,Long_video/cam27/,,rg_13b5b8b10ef3,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam28,long,cam28,Long_video/cam28/,,rg_38d61a694ec9,P,Public buildings and recreational places,accepted,long_term_observation
+long/cam29,long,cam29,Long_video/cam29/,,rg_94a46d1243fd,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam30,long,cam30,Long_video/cam30/,,rg_b89bb6c20a66,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam31,long,cam31,Long_video/cam31/,,rg_495c81a9b6b8,P,Public buildings and recreational places,unreviewed,long_term_observation
+long/cam32,long,cam32,Long_video/cam32/,,rg_5b4a918482df,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam33,long,cam33,Long_video/cam33/,,rg_1a7f455d85df,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam34,long,cam34,Long_video/cam34/,,rg_5bdb97fc5085,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam35,long,cam35,Long_video/cam35/,,rg_776263ed8ba1,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam36,long,cam36,Long_video/cam36/,,rg_9ae72f32536a,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam37,long,cam37,Long_video/cam37/,,rg_1ccca7a6e9fb,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam38,long,cam38,Long_video/cam38/,,rg_273158557b20,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam39,long,cam39,Long_video/cam39/,,rg_b77ad0cd2c1a,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam40,long,cam40,Long_video/cam40/,,rg_8ecee2db71cf,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam41,long,cam41,Long_video/cam41/,,rg_22aa8a611642,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam42,long,cam42,Long_video/cam42/,,rg_7e93305326c5,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam43,long,cam43,Long_video/cam43/,,rg_87550831fb18,T,Railways and rail transit,accepted,long_term_observation
+long/cam44,long,cam44,Long_video/cam44/,,rg_8ddf9e5b7c25,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam45,long,cam45,Long_video/cam45/,,rg_9184f6de0685,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam46,long,cam46,Long_video/cam46/,,rg_c61420f3a9f7,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam47,long,cam47,Long_video/cam47/,,rg_f781531ceaff,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam48,long,cam48,Long_video/cam48/,,rg_53fbff88c4e9,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam49,long,cam49,Long_video/cam49/,,rg_e6c46c2767b9,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam50,long,cam50,Long_video/cam50/,,rg_0d1becaf2c84,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam51,long,cam51,Long_video/cam51/,,rg_3beb9c0a9e2b,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam52,long,cam52,Long_video/cam52/,,rg_36eefae3745d,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam53,long,cam53,Long_video/cam53/,,rg_3782a553ef0d,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam54,long,cam54,Long_video/cam54/,,rg_10b37b72ba8b,T,Railways and rail transit,accepted,long_term_observation
+long/cam55,long,cam55,Long_video/cam55/,,rg_9d1e56f2d5a2,T,Railways and rail transit,unreviewed,long_term_observation
+long/cam9,long,cam9,Long_video/cam9/,,rg_438e9e40013a,T,Railways and rail transit,unreviewed,long_term_observation

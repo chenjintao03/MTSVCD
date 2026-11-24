@@ -1,0 +1,1025 @@
+{
+  "capture_date": "2026-11-24",
+  "origin": "Existing MTSVCD experiment server; source read without changing the original projects.",
+  "upstream_repository": "https://github.com/microsoft/DCVC",
+  "upstream_commit": null,
+  "upstream_commit_note": "No Git revision was available in the server source tree; per-file SHA-256 identities are provided.",
+  "release_edits": "Machine-specific paths and GPU UUIDs are templates; training and codec computations are preserved.",
+  "files": [
+    {
+      "path": "Deep Learning-based/DCVC-RT/LICENSE.txt",
+      "source_snapshot_path": "upstream/LICENSE.txt",
+      "server_source_sha256": "7c77a44a8acd9b41fdc209864a8016b3d430b5d0e09309818d5b7444336df744",
+      "release_sha256": "7c77a44a8acd9b41fdc209864a8016b3d430b5d0e09309818d5b7444336df744",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/NOTICE.txt",
+      "source_snapshot_path": "upstream/NOTICE.txt",
+      "server_source_sha256": "ecd478088d8f3cdf2a9378c35ebb83213a5470c84750875c53081e212241f651",
+      "release_sha256": "ecd478088d8f3cdf2a9378c35ebb83213a5470c84750875c53081e212241f651",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/UPSTREAM_README.md",
+      "source_snapshot_path": "rt_official/README.md",
+      "server_source_sha256": "8ae49679ffd7d90fe1c17005fb784296f909817dab41f9821017f673a48a77da",
+      "release_sha256": "8ae49679ffd7d90fe1c17005fb784296f909817dab41f9821017f673a48a77da",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/assets/RD-Curve.png",
+      "source_snapshot_path": "rt_official/assets/RD-Curve.png",
+      "server_source_sha256": "891d058abfb072a1f2c0cc52c9e82480c1797dce3dfc0a834db474de81bed24c",
+      "release_sha256": "891d058abfb072a1f2c0cc52c9e82480c1797dce3dfc0a834db474de81bed24c",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/assets/bd_rate_speed.png",
+      "source_snapshot_path": "rt_official/assets/bd_rate_speed.png",
+      "server_source_sha256": "817dfb0425eaf76320f7481bd6cdae336f78cffd55d2bcae9e8ae93406324dc2",
+      "release_sha256": "817dfb0425eaf76320f7481bd6cdae336f78cffd55d2bcae9e8ae93406324dc2",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/assets/complexity.png",
+      "source_snapshot_path": "rt_official/assets/complexity.png",
+      "server_source_sha256": "60fd8664826178d8dcf9355e2047aa95e7d45f9641766a0e3bc7d68007b89b3f",
+      "release_sha256": "60fd8664826178d8dcf9355e2047aa95e7d45f9641766a0e3bc7d68007b89b3f",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/assets/intra_compare.png",
+      "source_snapshot_path": "rt_official/assets/intra_compare.png",
+      "server_source_sha256": "d46ceef27c91f266c57e59fb0d6d3dcab8949f7fb13a7410edc94bf65ce80b9d",
+      "release_sha256": "d46ceef27c91f266c57e59fb0d6d3dcab8949f7fb13a7410edc94bf65ce80b9d",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/assets/practical_performance.png",
+      "source_snapshot_path": "rt_official/assets/practical_performance.png",
+      "server_source_sha256": "777653ac98549ec649219f90bc0c3f698294acaa93428c636eb45db418da061e",
+      "release_sha256": "777653ac98549ec649219f90bc0c3f698294acaa93428c636eb45db418da061e",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/dataset_config_example_yuv420.json",
+      "source_snapshot_path": "rt_official/dataset_config_example_yuv420.json",
+      "server_source_sha256": "3b6c06316849286202f74ebaf9b6d648b837044325e7306e8de95283c6e8acca",
+      "release_sha256": "1030b9a0a29c970d3d4ce106abdd504172050e5b6a233c6c93018983c9469697",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/requirements.txt",
+      "source_snapshot_path": "rt_official/requirements.txt",
+      "server_source_sha256": "79e546cb5e465d93ae17fc05ca2cd76a84526274ef98d3a50e7497556dcc1fea",
+      "release_sha256": "79e546cb5e465d93ae17fc05ca2cd76a84526274ef98d3a50e7497556dcc1fea",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/cpp/py_rans/py_rans.cpp",
+      "source_snapshot_path": "rt_matched/implementation/src/cpp/py_rans/py_rans.cpp",
+      "server_source_sha256": "8d7bf63b3877e15e6a49f28b52bfd1f343f5899de0461fc6c155c885d9e512f1",
+      "release_sha256": "8d7bf63b3877e15e6a49f28b52bfd1f343f5899de0461fc6c155c885d9e512f1",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/cpp/py_rans/py_rans.h",
+      "source_snapshot_path": "rt_matched/implementation/src/cpp/py_rans/py_rans.h",
+      "server_source_sha256": "b7ebdd2f00d685486f24317ed2efa09a4772e06aba02932ee696377e6d64e3d4",
+      "release_sha256": "b7ebdd2f00d685486f24317ed2efa09a4772e06aba02932ee696377e6d64e3d4",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/cpp/py_rans/rans.cpp",
+      "source_snapshot_path": "rt_matched/implementation/src/cpp/py_rans/rans.cpp",
+      "server_source_sha256": "fd78ff143d4f62b6b7393b8468eaa6558b8e6fd5021b15f84b8c7b22ae3e9a72",
+      "release_sha256": "fd78ff143d4f62b6b7393b8468eaa6558b8e6fd5021b15f84b8c7b22ae3e9a72",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/cpp/py_rans/rans.h",
+      "source_snapshot_path": "rt_matched/implementation/src/cpp/py_rans/rans.h",
+      "server_source_sha256": "9b15dc5c77bcbf9bde1ce88c7bb357b5170bb8601ef9852960335999eafb5261",
+      "release_sha256": "9b15dc5c77bcbf9bde1ce88c7bb357b5170bb8601ef9852960335999eafb5261",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/cpp/py_rans/rans_byte.h",
+      "source_snapshot_path": "rt_matched/implementation/src/cpp/py_rans/rans_byte.h",
+      "server_source_sha256": "a5d057d14657c8acc4a24300f2aa9424ff0544b42e92551a17a746fd0cc70a77",
+      "release_sha256": "a5d057d14657c8acc4a24300f2aa9424ff0544b42e92551a17a746fd0cc70a77",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/cpp/setup.py",
+      "source_snapshot_path": "rt_matched/implementation/src/cpp/setup.py",
+      "server_source_sha256": "36ade348d410279cc0043a6d20ba3105c6aae30c593250ed2424431950785307",
+      "release_sha256": "36ade348d410279cc0043a6d20ba3105c6aae30c593250ed2424431950785307",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/layers/cuda_inference.py",
+      "source_snapshot_path": "rt_matched/implementation/src/layers/cuda_inference.py",
+      "server_source_sha256": "65f647d34af39e0666d3222981efa4a17c62faae9ae572654cf28ca0065ae0ad",
+      "release_sha256": "65f647d34af39e0666d3222981efa4a17c62faae9ae572654cf28ca0065ae0ad",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/layers/extensions/inference/bind.cpp",
+      "source_snapshot_path": "rt_matched/implementation/src/layers/extensions/inference/bind.cpp",
+      "server_source_sha256": "a6047535c368a38446a3edbe584e4511cfc441b0c858f9d11f57d8cbcd8e6ca6",
+      "release_sha256": "a6047535c368a38446a3edbe584e4511cfc441b0c858f9d11f57d8cbcd8e6ca6",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/layers/extensions/inference/common.h",
+      "source_snapshot_path": "rt_matched/implementation/src/layers/extensions/inference/common.h",
+      "server_source_sha256": "4c6cfb3587e9b4c8f0a5786630004c337df97bd86059d04241edaf7c7ecac8b6",
+      "release_sha256": "4c6cfb3587e9b4c8f0a5786630004c337df97bd86059d04241edaf7c7ecac8b6",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/layers/extensions/inference/def.h",
+      "source_snapshot_path": "rt_matched/implementation/src/layers/extensions/inference/def.h",
+      "server_source_sha256": "f495c634944c6482e7282a2beb80373a1416f1b8ee73d6a015b3f52a5b79f066",
+      "release_sha256": "f495c634944c6482e7282a2beb80373a1416f1b8ee73d6a015b3f52a5b79f066",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/layers/extensions/inference/impl.cpp",
+      "source_snapshot_path": "rt_matched/implementation/src/layers/extensions/inference/impl.cpp",
+      "server_source_sha256": "985728101e8556ddd0ec3fe39aad7edd4de4c082bc3b7559ba0e1f48d2f7d683",
+      "release_sha256": "985728101e8556ddd0ec3fe39aad7edd4de4c082bc3b7559ba0e1f48d2f7d683",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/layers/extensions/inference/kernel.cu",
+      "source_snapshot_path": "rt_matched/implementation/src/layers/extensions/inference/kernel.cu",
+      "server_source_sha256": "875aff392b0dca42af382ae48c0dceaba5672239fec710e47ae7e616c2cd92a3",
+      "release_sha256": "875aff392b0dca42af382ae48c0dceaba5672239fec710e47ae7e616c2cd92a3",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/layers/extensions/inference/setup.py",
+      "source_snapshot_path": "rt_matched/implementation/src/layers/extensions/inference/setup.py",
+      "server_source_sha256": "7b55bca37c0e734330c19c9838f577966a035e0b7ac678e061f222995d23240b",
+      "release_sha256": "7b55bca37c0e734330c19c9838f577966a035e0b7ac678e061f222995d23240b",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/layers/layers.py",
+      "source_snapshot_path": "rt_matched/implementation/src/layers/layers.py",
+      "server_source_sha256": "2839de3e14029c2c384849d58c233c6eaf1d66d8386eb5e8713e2b5aed4bfb10",
+      "release_sha256": "2839de3e14029c2c384849d58c233c6eaf1d66d8386eb5e8713e2b5aed4bfb10",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/models/common_model.py",
+      "source_snapshot_path": "rt_matched/implementation/src/models/common_model.py",
+      "server_source_sha256": "b93f028ee97891c01bfd291a22edcb63f8664cdfcc78b8d5a21c8f98558777a1",
+      "release_sha256": "b93f028ee97891c01bfd291a22edcb63f8664cdfcc78b8d5a21c8f98558777a1",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/models/entropy_models.py",
+      "source_snapshot_path": "rt_matched/implementation/src/models/entropy_models.py",
+      "server_source_sha256": "9f01781847cbff2afd3d2b2ce6b14b1a0905bb1da41ca5e20e68ab4a031e0e57",
+      "release_sha256": "9f01781847cbff2afd3d2b2ce6b14b1a0905bb1da41ca5e20e68ab4a031e0e57",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/models/image_model.py",
+      "source_snapshot_path": "rt_matched/implementation/src/models/image_model.py",
+      "server_source_sha256": "b72fbfb95c392e68aea3bd0820c53c4ec901a8372e203319a5f8372547dbb37d",
+      "release_sha256": "b72fbfb95c392e68aea3bd0820c53c4ec901a8372e203319a5f8372547dbb37d",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/models/training_model.py",
+      "source_snapshot_path": "rt_matched/implementation/src/models/training_model.py",
+      "server_source_sha256": "95a053cc978c0275fa79ac3f9100906133e742b6844dd14c1ea9fb642c8498e4",
+      "release_sha256": "95a053cc978c0275fa79ac3f9100906133e742b6844dd14c1ea9fb642c8498e4",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/models/video_model.py",
+      "source_snapshot_path": "rt_matched/implementation/src/models/video_model.py",
+      "server_source_sha256": "3ba7094ef0ef938897bdfefcea18ebe2d9c79743768348c2d33a3a70a85ead8a",
+      "release_sha256": "3ba7094ef0ef938897bdfefcea18ebe2d9c79743768348c2d33a3a70a85ead8a",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/utils/common.py",
+      "source_snapshot_path": "rt_matched/implementation/src/utils/common.py",
+      "server_source_sha256": "e3db33408fe0e4f3f659ab77b40c903cd3fd91ee7ec2dd007d33cfad06e87b36",
+      "release_sha256": "e3db33408fe0e4f3f659ab77b40c903cd3fd91ee7ec2dd007d33cfad06e87b36",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/utils/metrics.py",
+      "source_snapshot_path": "rt_matched/implementation/src/utils/metrics.py",
+      "server_source_sha256": "986aa1c803aca94d651a1eb3c3f7690f36045a02053972e0275000f1b4f780f9",
+      "release_sha256": "986aa1c803aca94d651a1eb3c3f7690f36045a02053972e0275000f1b4f780f9",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/utils/stream_helper.py",
+      "source_snapshot_path": "rt_matched/implementation/src/utils/stream_helper.py",
+      "server_source_sha256": "40fb73b75fd2d96b371c5d5733928c83e1c785c40e8b89a93ea4414af5431bf1",
+      "release_sha256": "40fb73b75fd2d96b371c5d5733928c83e1c785c40e8b89a93ea4414af5431bf1",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/utils/transforms.py",
+      "source_snapshot_path": "rt_matched/implementation/src/utils/transforms.py",
+      "server_source_sha256": "8d07100e2e531357f4a315db33e3ae137076b2378d1835888fc6055dfb46fe55",
+      "release_sha256": "8d07100e2e531357f4a315db33e3ae137076b2378d1835888fc6055dfb46fe55",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/utils/video_reader.py",
+      "source_snapshot_path": "rt_matched/implementation/src/utils/video_reader.py",
+      "server_source_sha256": "33476bef2c7815ba09e7b706a0596347b30e43e68c227f0a851bfc0c3d9fec82",
+      "release_sha256": "33476bef2c7815ba09e7b706a0596347b30e43e68c227f0a851bfc0c3d9fec82",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/src/utils/video_writer.py",
+      "source_snapshot_path": "rt_matched/implementation/src/utils/video_writer.py",
+      "server_source_sha256": "53b76c28abc4058b602c7c2cac6c0189d669cdd0af9464bcb6a77e1ab25283dd",
+      "release_sha256": "53b76c28abc4058b602c7c2cac6c0189d669cdd0af9464bcb6a77e1ab25283dd",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/test_video.py",
+      "source_snapshot_path": "rt_matched/implementation/test_video.py",
+      "server_source_sha256": "56c3c410f07f44847c0b7eea8e754cb2b5bd0c003e57b17ba687fc53b9595ac4",
+      "release_sha256": "56c3c410f07f44847c0b7eea8e754cb2b5bd0c003e57b17ba687fc53b9595ac4",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-RT/train_video_rt.py",
+      "source_snapshot_path": "rt_matched/implementation/train_video_rt.py",
+      "server_source_sha256": "cc7d72af79795fc1f49fb52787f4a503b3dd16569990f304de27bb3186abd73c",
+      "release_sha256": "7f0eace2a40b69eb1ea9608ef74824b88cb2b14a306a164bf582907b2ae372a0",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/LICENSE.txt",
+      "source_snapshot_path": "upstream/LICENSE.txt",
+      "server_source_sha256": "7c77a44a8acd9b41fdc209864a8016b3d430b5d0e09309818d5b7444336df744",
+      "release_sha256": "7c77a44a8acd9b41fdc209864a8016b3d430b5d0e09309818d5b7444336df744",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/NOTICE.txt",
+      "source_snapshot_path": "upstream/NOTICE.txt",
+      "server_source_sha256": "ecd478088d8f3cdf2a9378c35ebb83213a5470c84750875c53081e212241f651",
+      "release_sha256": "ecd478088d8f3cdf2a9378c35ebb83213a5470c84750875c53081e212241f651",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/UPSTREAM_README.md",
+      "source_snapshot_path": "tcm_official/README.md",
+      "server_source_sha256": "0a4ac8419c6de97198d15cf95025106a8afcb8065431de05865c3b4c006a83d9",
+      "release_sha256": "0a4ac8419c6de97198d15cf95025106a8afcb8065431de05865c3b4c006a83d9",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/requirements.txt",
+      "source_snapshot_path": "tcm_official/requirements.txt",
+      "server_source_sha256": "b5d43a367601f9ea7153a0fa198dcd65079f00a83674584e5bf49277d0624ced",
+      "release_sha256": "b5d43a367601f9ea7153a0fa198dcd65079f00a83674584e5bf49277d0624ced",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/cpp/3rdparty/CMakeLists.txt",
+      "source_snapshot_path": "tcm_matched/implementation/src/cpp/3rdparty/CMakeLists.txt",
+      "server_source_sha256": "3b8dddc360f0a21b727ef2d7d147a9357fbdf50a13e379c721d5a98d8c3bb70c",
+      "release_sha256": "3b8dddc360f0a21b727ef2d7d147a9357fbdf50a13e379c721d5a98d8c3bb70c",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/cpp/3rdparty/pybind11/CMakeLists.txt",
+      "source_snapshot_path": "tcm_matched/implementation/src/cpp/3rdparty/pybind11/CMakeLists.txt",
+      "server_source_sha256": "f44f9515487dbcec493a900806c57d01f765aca754cb7cd624bae5d81e7680ac",
+      "release_sha256": "f44f9515487dbcec493a900806c57d01f765aca754cb7cd624bae5d81e7680ac",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/cpp/3rdparty/pybind11/CMakeLists.txt.in",
+      "source_snapshot_path": "tcm_matched/implementation/src/cpp/3rdparty/pybind11/CMakeLists.txt.in",
+      "server_source_sha256": "53aabc78868b52667f395ec5299704c792ca744b21f60f703743383ff941171e",
+      "release_sha256": "53aabc78868b52667f395ec5299704c792ca744b21f60f703743383ff941171e",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/cpp/3rdparty/ryg_rans/CMakeLists.txt",
+      "source_snapshot_path": "tcm_matched/implementation/src/cpp/3rdparty/ryg_rans/CMakeLists.txt",
+      "server_source_sha256": "59d767ba4a0ce9f98007be02209aa7f52ae716001c6774d8de427f1ce4fe8bf5",
+      "release_sha256": "59d767ba4a0ce9f98007be02209aa7f52ae716001c6774d8de427f1ce4fe8bf5",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/cpp/3rdparty/ryg_rans/CMakeLists.txt.in",
+      "source_snapshot_path": "tcm_matched/implementation/src/cpp/3rdparty/ryg_rans/CMakeLists.txt.in",
+      "server_source_sha256": "ba3771219bd3f0781a9669df93f58b6b6d1652632719860e5d320cdaaff7e469",
+      "release_sha256": "ba3771219bd3f0781a9669df93f58b6b6d1652632719860e5d320cdaaff7e469",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/cpp/CMakeLists.txt",
+      "source_snapshot_path": "tcm_matched/implementation/src/cpp/CMakeLists.txt",
+      "server_source_sha256": "20ce66c87c579ed02d57d45cfe14bba57c270ba90c4d0ad34f4a96893554e11f",
+      "release_sha256": "20ce66c87c579ed02d57d45cfe14bba57c270ba90c4d0ad34f4a96893554e11f",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/cpp/ops/CMakeLists.txt",
+      "source_snapshot_path": "tcm_matched/implementation/src/cpp/ops/CMakeLists.txt",
+      "server_source_sha256": "9406931f637978bc3d8661be10b2cf1d463e5b6eee71ba81486ec8e27a64b615",
+      "release_sha256": "9406931f637978bc3d8661be10b2cf1d463e5b6eee71ba81486ec8e27a64b615",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/cpp/ops/ops.cpp",
+      "source_snapshot_path": "tcm_matched/implementation/src/cpp/ops/ops.cpp",
+      "server_source_sha256": "d771daa4da7dc1176ad1ec2fc511f78966840d471879ddd625402888ea8ca410",
+      "release_sha256": "d771daa4da7dc1176ad1ec2fc511f78966840d471879ddd625402888ea8ca410",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/cpp/rans/CMakeLists.txt",
+      "source_snapshot_path": "tcm_matched/implementation/src/cpp/rans/CMakeLists.txt",
+      "server_source_sha256": "feaa6e0dcb69c993a464c6df25a3aa7db9c34a379d6e8198d7ce36eadf0fba0a",
+      "release_sha256": "feaa6e0dcb69c993a464c6df25a3aa7db9c34a379d6e8198d7ce36eadf0fba0a",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/cpp/rans/rans_interface.cpp",
+      "source_snapshot_path": "tcm_matched/implementation/src/cpp/rans/rans_interface.cpp",
+      "server_source_sha256": "6d83757839ba42d78e6558604d0d7dfeebe94024d924f11affc09a33c3002329",
+      "release_sha256": "6d83757839ba42d78e6558604d0d7dfeebe94024d924f11affc09a33c3002329",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/cpp/rans/rans_interface.hpp",
+      "source_snapshot_path": "tcm_matched/implementation/src/cpp/rans/rans_interface.hpp",
+      "server_source_sha256": "fbc12b048a320d445b8db843266ba2d5c666ff8221ab8804a9018e489785d1f3",
+      "release_sha256": "fbc12b048a320d445b8db843266ba2d5c666ff8221ab8804a9018e489785d1f3",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/entropy_models/entropy_models.py",
+      "source_snapshot_path": "tcm_matched/implementation/src/entropy_models/entropy_models.py",
+      "server_source_sha256": "12d0c99b76278f5b21f98c903c49b58d9dae58448b1bbd9afb74527fffadbcec",
+      "release_sha256": "12d0c99b76278f5b21f98c903c49b58d9dae58448b1bbd9afb74527fffadbcec",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/entropy_models/video_entropy_models.py",
+      "source_snapshot_path": "tcm_matched/implementation/src/entropy_models/video_entropy_models.py",
+      "server_source_sha256": "7b41b82f39e5dec97ad4b6afbc8e93382d0c76208e311a8f9e00d45e052b33a0",
+      "release_sha256": "7b41b82f39e5dec97ad4b6afbc8e93382d0c76208e311a8f9e00d45e052b33a0",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/layers/gdn.py",
+      "source_snapshot_path": "tcm_matched/implementation/src/layers/gdn.py",
+      "server_source_sha256": "ff57e6532f70172eb44b52fc8d5d286144a48df34110eef08d341cd03bf136fd",
+      "release_sha256": "ff57e6532f70172eb44b52fc8d5d286144a48df34110eef08d341cd03bf136fd",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/layers/layers.py",
+      "source_snapshot_path": "tcm_matched/implementation/src/layers/layers.py",
+      "server_source_sha256": "53393d5c9c0920993781d92df7572b853f9977c548688f007c9663a47d63857c",
+      "release_sha256": "53393d5c9c0920993781d92df7572b853f9977c548688f007c9663a47d63857c",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/models/priors.py",
+      "source_snapshot_path": "tcm_matched/implementation/src/models/priors.py",
+      "server_source_sha256": "1857323fde3cec895fee1e7925ee48c29eea6d9bd674e0cec39b726ee9ad9ccb",
+      "release_sha256": "1857323fde3cec895fee1e7925ee48c29eea6d9bd674e0cec39b726ee9ad9ccb",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/models/utils.py",
+      "source_snapshot_path": "tcm_matched/implementation/src/models/utils.py",
+      "server_source_sha256": "42aa6e089a8a07f5fed34558f4efe5d09be77c5576f47c53c4d4992cd28c1abe",
+      "release_sha256": "42aa6e089a8a07f5fed34558f4efe5d09be77c5576f47c53c4d4992cd28c1abe",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/models/video_net.py",
+      "source_snapshot_path": "tcm_matched/implementation/src/models/video_net.py",
+      "server_source_sha256": "2632ca61c67ea3b1e68b5651e9c24f2de47357f5e53412636297436a44f0c9fe",
+      "release_sha256": "2632ca61c67ea3b1e68b5651e9c24f2de47357f5e53412636297436a44f0c9fe",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/models/video_net_dmc.py",
+      "source_snapshot_path": "tcm_matched/implementation/src/models/video_net_dmc.py",
+      "server_source_sha256": "e99024c5131076d91a983bde252751a8a230a4994c6f297aeaad9b4d614f66e7",
+      "release_sha256": "e99024c5131076d91a983bde252751a8a230a4994c6f297aeaad9b4d614f66e7",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/ops/bound_ops.py",
+      "source_snapshot_path": "tcm_matched/implementation/src/ops/bound_ops.py",
+      "server_source_sha256": "d17477355f2628121d7ff749b11fd30b00c4dd8d9c0fa6b27c6718c128d1c8b2",
+      "release_sha256": "d17477355f2628121d7ff749b11fd30b00c4dd8d9c0fa6b27c6718c128d1c8b2",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/ops/parametrizers.py",
+      "source_snapshot_path": "tcm_matched/implementation/src/ops/parametrizers.py",
+      "server_source_sha256": "ac15d10424907e06a2e5ea60e9e7e8910ad5eae357d3a7f91741e7b0c70d9b6e",
+      "release_sha256": "ac15d10424907e06a2e5ea60e9e7e8910ad5eae357d3a7f91741e7b0c70d9b6e",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/src/utils/stream_helper.py",
+      "source_snapshot_path": "tcm_matched/implementation/src/utils/stream_helper.py",
+      "server_source_sha256": "cc72d9c1fab2d49356ad7a9eefdacd70fee40e5653ca354c698c48c6e7cc46e0",
+      "release_sha256": "cc72d9c1fab2d49356ad7a9eefdacd70fee40e5653ca354c698c48c6e7cc46e0",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "Deep Learning-based/DCVC-TCM/test_video.py",
+      "source_snapshot_path": "tcm_official/test_video.py",
+      "server_source_sha256": "1b6ae9c29902097b1dd5b2fe08d4a7e743fb12b1d3b88ff5399686e0fbf2b926",
+      "release_sha256": "1b6ae9c29902097b1dd5b2fe08d4a7e743fb12b1d3b88ff5399686e0fbf2b926",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/LICENSE.txt",
+      "source_snapshot_path": "upstream/LICENSE.txt",
+      "server_source_sha256": "7c77a44a8acd9b41fdc209864a8016b3d430b5d0e09309818d5b7444336df744",
+      "release_sha256": "7c77a44a8acd9b41fdc209864a8016b3d430b5d0e09309818d5b7444336df744",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/NOTICE.txt",
+      "source_snapshot_path": "upstream/NOTICE.txt",
+      "server_source_sha256": "ecd478088d8f3cdf2a9378c35ebb83213a5470c84750875c53081e212241f651",
+      "release_sha256": "ecd478088d8f3cdf2a9378c35ebb83213a5470c84750875c53081e212241f651",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/cross_dataset/code/common.py",
+      "source_snapshot_path": "cross_dataset/code/common.py",
+      "server_source_sha256": "27bd858269f32322221edd0b46aa73b7974187af8941dbe1a9c2fbcd132dafa4",
+      "release_sha256": "a98dddf123cc8bce4400d1c1517d02218bd2558a8ff67f44a518b7398c41d251",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/cross_dataset/code/controller.py",
+      "source_snapshot_path": "cross_dataset/code/controller.py",
+      "server_source_sha256": "ce4c514deeae53709a578281bb73c1a4230b2d9bad09482cd3ac6028a9c175f8",
+      "release_sha256": "ce4c514deeae53709a578281bb73c1a4230b2d9bad09482cd3ac6028a9c175f8",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/cross_dataset/code/native_window.py",
+      "source_snapshot_path": "cross_dataset/code/native_window.py",
+      "server_source_sha256": "9278cf898768e1a85fc4430f751b868ef3f6bca60091f29cfd97ce9782ba68b8",
+      "release_sha256": "9278cf898768e1a85fc4430f751b868ef3f6bca60091f29cfd97ce9782ba68b8",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/cross_dataset/code/preflight.py",
+      "source_snapshot_path": "cross_dataset/code/preflight.py",
+      "server_source_sha256": "2b84892909f51afce8fcce4f744b53c25561a51645b8c20a61ee24af63745d64",
+      "release_sha256": "2b84892909f51afce8fcce4f744b53c25561a51645b8c20a61ee24af63745d64",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/cross_dataset/code/worker.py",
+      "source_snapshot_path": "cross_dataset/code/worker.py",
+      "server_source_sha256": "efa599f129dd2f82ff1409c167c6a23819212b19a5a25b4030ee716e49b6e665",
+      "release_sha256": "efa599f129dd2f82ff1409c167c6a23819212b19a5a25b4030ee716e49b6e665",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/cross_dataset/protocol/experiment.json",
+      "source_snapshot_path": "cross_dataset/protocol/experiment.json",
+      "server_source_sha256": "84cbf8fa02116e2b2e93309fc7ecf20fa291ad6c395b6e99eb180d94641c1dde",
+      "release_sha256": "56633d373a6d9ffae889b3544582387c8871b5c4bed3bd829e6f197ac4e78c94",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/cross_dataset/protocol/input_manifest.json",
+      "source_snapshot_path": "cross_dataset/protocol/input_manifest.json",
+      "server_source_sha256": "386e0f61072aac1167b8004ea80403480fa69a0bb6f99e0ee3c9590729e01e0b",
+      "release_sha256": "47a68ad3206d068880c666cd980d1fd6c9c0857549b3563b2c650a5713530dad",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/cross_dataset/protocol/metadata_and_windows.json",
+      "source_snapshot_path": "cross_dataset/protocol/metadata_and_windows.json",
+      "server_source_sha256": "816074168e05990880a07e551ab9abeea663805824f43bec969200b78d8b8b6a",
+      "release_sha256": "cd7b6753e7ee4b49e085a90541fec8433aa2df4988d27a51c8a2be5cd133645f",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/cross_dataset/protocol/runtime_sources.json",
+      "source_snapshot_path": "cross_dataset/protocol/runtime_sources.json",
+      "server_source_sha256": "53f277671c6a58bfb701ad8800643cf81272d9f317d935025c9aa1a533f5d17d",
+      "release_sha256": "7169a65f29da429170be9901f67362ed47671c5534932259d1cdb240a52b14c2",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/native420_benchmark/code/common_yuv.py",
+      "source_snapshot_path": "benchmark/code/common_yuv.py",
+      "server_source_sha256": "e9b7f73c567001c2e1b5a5555ccb4f74b31ac539ba5e9515efe8ba6a3e35671f",
+      "release_sha256": "e9b7f73c567001c2e1b5a5555ccb4f74b31ac539ba5e9515efe8ba6a3e35671f",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/native420_benchmark/code/learned_worker.py",
+      "source_snapshot_path": "benchmark/code/learned_worker.py",
+      "server_source_sha256": "1e430f76275a8212c46c1a99df3d5542de4c972f32292caf5991335648bf5681",
+      "release_sha256": "b0c730b0a6123198b15a211e5f190fe6a0091ace521b4e5ca98d335346ce2522",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/native420_benchmark/protocol/benchmark.json",
+      "source_snapshot_path": "benchmark/protocol/benchmark.json",
+      "server_source_sha256": "296822e593863af65e17f8d26f2ed7ab6deca6fea0c420e3f2b953a53a161e0b",
+      "release_sha256": "0eee09b87573cbb74bf72417ef68c0ddaead63ab7beb511bbdbac758ed69d32c",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/native420_benchmark/protocol/input_manifest.json",
+      "source_snapshot_path": "benchmark/protocol/input_manifest.json",
+      "server_source_sha256": "c275a8f1c57c9f61f88c16e109cb96fb8c9b4629b3eb846b640fcc35b825d548",
+      "release_sha256": "c56d2dc81e180fabb6f2303ab2be13d4aad0838c5e239d0441fffdc2f1352a83",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/native420_benchmark/protocol/source_sha256.json",
+      "source_snapshot_path": "benchmark/protocol/source_sha256.json",
+      "server_source_sha256": "82341774a927afabc67d02bb3ff247e1f7ed2602d0cb135560d1ccc789aa55d8",
+      "release_sha256": "8e2b987fc6ff5f74d8b7db8e2a58a3a8b0f5df8cfbcd37a310c35178354933e4",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/native420_benchmark/references/rt_metrics.py",
+      "source_snapshot_path": "benchmark/references/rt_metrics.py",
+      "server_source_sha256": "986aa1c803aca94d651a1eb3c3f7690f36045a02053972e0275000f1b4f780f9",
+      "release_sha256": "986aa1c803aca94d651a1eb3c3f7690f36045a02053972e0275000f1b4f780f9",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/native420_benchmark/references/rt_test_video.py",
+      "source_snapshot_path": "benchmark/references/rt_test_video.py",
+      "server_source_sha256": "56c3c410f07f44847c0b7eea8e754cb2b5bd0c003e57b17ba687fc53b9595ac4",
+      "release_sha256": "56c3c410f07f44847c0b7eea8e754cb2b5bd0c003e57b17ba687fc53b9595ac4",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/native420_benchmark/references/rt_transforms.py",
+      "source_snapshot_path": "benchmark/references/rt_transforms.py",
+      "server_source_sha256": "8d07100e2e531357f4a315db33e3ae137076b2378d1835888fc6055dfb46fe55",
+      "release_sha256": "8d07100e2e531357f4a315db33e3ae137076b2378d1835888fc6055dfb46fe55",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/native420_benchmark/references/rt_video_writer.py",
+      "source_snapshot_path": "benchmark/references/rt_video_writer.py",
+      "server_source_sha256": "53b76c28abc4058b602c7c2cac6c0189d669cdd0af9464bcb6a77e1ab25283dd",
+      "release_sha256": "53b76c28abc4058b602c7c2cac6c0189d669cdd0af9464bcb6a77e1ab25283dd",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/native420_benchmark/references/tcm_test_video.py",
+      "source_snapshot_path": "benchmark/references/tcm_test_video.py",
+      "server_source_sha256": "1b6ae9c29902097b1dd5b2fe08d4a7e743fb12b1d3b88ff5399686e0fbf2b926",
+      "release_sha256": "1b6ae9c29902097b1dd5b2fe08d4a7e743fb12b1d3b88ff5399686e0fbf2b926",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/rt_endpoint/code/common.py",
+      "source_snapshot_path": "rt_endpoint/code/common.py",
+      "server_source_sha256": "72df6d826920607949a283bd321526558002fb9ad8648322c278984a19559217",
+      "release_sha256": "df1d39d93fb4b9cdc9ed94201b255bbe5f4d7d037908415b136668f1ce152d86",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_endpoint/code/controller.py",
+      "source_snapshot_path": "rt_endpoint/code/controller.py",
+      "server_source_sha256": "3445d5491ab7dbf7e51a3fad82f19f149accd994b9a1b862f8e05ec89dd4f2b0",
+      "release_sha256": "cf7d7f39c16e9aa559b0e93dae480a59e3b5f06796dc948600fbbbe42042dc70",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_endpoint/code/data.py",
+      "source_snapshot_path": "rt_endpoint/code/data.py",
+      "server_source_sha256": "c39d2f748cfba5a4a88e06648d784317f7cc8fb67b81fe0a4bf89b079432470f",
+      "release_sha256": "9514566332635852eeb952d1435101fcaacf1c6c8194efc70b2cda165547a74e",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_endpoint/code/evaluate_endpoint.py",
+      "source_snapshot_path": "rt_endpoint/code/evaluate_endpoint.py",
+      "server_source_sha256": "00f18a3b64b148f01f9e03fb24f8e127d61e732f3a0897e423c145354b28cbeb",
+      "release_sha256": "39f11eca110ad85a43a287f735f4a758109c41f4122a6097962ee2696accf2a3",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_endpoint/code/gradient_gate.py",
+      "source_snapshot_path": "rt_endpoint/code/gradient_gate.py",
+      "server_source_sha256": "4c654fb4d4aa8d1ee6742c356a56b8f9fa060554ab183910e572e5b373f5996d",
+      "release_sha256": "4c654fb4d4aa8d1ee6742c356a56b8f9fa060554ab183910e572e5b373f5996d",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/rt_endpoint/code/model.py",
+      "source_snapshot_path": "rt_endpoint/code/model.py",
+      "server_source_sha256": "d1d6f90390104d2fa974580fe390c67012def815a9a179c1478ccc7bc6f80093",
+      "release_sha256": "d1d6f90390104d2fa974580fe390c67012def815a9a179c1478ccc7bc6f80093",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/rt_endpoint/code/preflight.py",
+      "source_snapshot_path": "rt_endpoint/code/preflight.py",
+      "server_source_sha256": "175123f92abba107c34766ccf7d9fbe1562c3b37ccc679e92d860fa76e472cf4",
+      "release_sha256": "ba156cc9e0a789acd6c12ceec990a76e8407b0fd2c173627620ca1bac3374dbf",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_endpoint/code/train_endpoint.py",
+      "source_snapshot_path": "rt_endpoint/code/train_endpoint.py",
+      "server_source_sha256": "0c646c606d38a6f01159a6ace02000cac67bc1c054a4be56cb0a6f840a3df196",
+      "release_sha256": "0c646c606d38a6f01159a6ace02000cac67bc1c054a4be56cb0a6f840a3df196",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/rt_endpoint/protocol/experiment.json",
+      "source_snapshot_path": "rt_endpoint/protocol/experiment.json",
+      "server_source_sha256": "0fb98b097880fb778c9c188a9fdc1bf8ee71834c0cf067cc7445a19c066ab677",
+      "release_sha256": "40d8ccdc7096ef4a6de161da128907d48b10bafc6e1b549a2894a97022517775",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_endpoint/protocol/self_metadata.json",
+      "source_snapshot_path": "rt_endpoint/protocol/self_metadata.json",
+      "server_source_sha256": "69a8edb5adc341a3e656eed74469f4a64d92d313db07ddab3c1210e283c01553",
+      "release_sha256": "a7302183bf28bf5d799341b4c1747e8dd52123c68270d7fd5062a1f748c865dd",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_endpoint/protocol/shanghai_training_manifest.json",
+      "source_snapshot_path": "rt_endpoint/protocol/shanghai_training_manifest.json",
+      "server_source_sha256": "b7792dae976306deaae02791ce90ed5162738c0452da09a50bf3248ed638c3bf",
+      "release_sha256": "22b743f8904b28f1e9317656d0d34ad0e706d701d95457aa76587f20fca66982",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_matched/code/common.py",
+      "source_snapshot_path": "rt_matched/code/common.py",
+      "server_source_sha256": "72df6d826920607949a283bd321526558002fb9ad8648322c278984a19559217",
+      "release_sha256": "df1d39d93fb4b9cdc9ed94201b255bbe5f4d7d037908415b136668f1ce152d86",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_matched/code/controller.py",
+      "source_snapshot_path": "rt_matched/code/controller.py",
+      "server_source_sha256": "a28b206527cfaaf3bf515558f9efa1868f80114139a497fab22a3ddffeee662f",
+      "release_sha256": "aca85bc751c06e2678f4fbea1fabf581a10a2cd34abd9b26d4ed07a4776f7560",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_matched/code/data.py",
+      "source_snapshot_path": "rt_matched/code/data.py",
+      "server_source_sha256": "ce2787595cd96e81dd0e356c6141a2e8c28b0773afdcec518a9eb530db6d92cc",
+      "release_sha256": "e86c7d263215e10cc02ae42d5bfae29a70f0e366cdb481c5f6078012548784c5",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_matched/code/evaluate.py",
+      "source_snapshot_path": "rt_matched/code/evaluate.py",
+      "server_source_sha256": "5af79c22001655a236d162534fedec7b74cfebc798056aae7ab683d75b64ba3f",
+      "release_sha256": "ee202163b161a22284def79e462e26c6fc715d4654eaa6bb73480d9f9986a417",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_matched/code/gradient_gate.py",
+      "source_snapshot_path": "rt_matched/code/gradient_gate.py",
+      "server_source_sha256": "c485b0bcb6fbd45f3a4be9465025479f1245520f12853ebd8ec7f7853829b236",
+      "release_sha256": "c485b0bcb6fbd45f3a4be9465025479f1245520f12853ebd8ec7f7853829b236",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/rt_matched/code/model.py",
+      "source_snapshot_path": "rt_matched/code/model.py",
+      "server_source_sha256": "d1d6f90390104d2fa974580fe390c67012def815a9a179c1478ccc7bc6f80093",
+      "release_sha256": "d1d6f90390104d2fa974580fe390c67012def815a9a179c1478ccc7bc6f80093",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/rt_matched/code/preflight.py",
+      "source_snapshot_path": "rt_matched/code/preflight.py",
+      "server_source_sha256": "292bb26e19c7eae85fa5e603b59bee6859b415d7c9bc9a0b77061fa9b75e93cb",
+      "release_sha256": "69765bbc20321d5240f4a2a3cf6a59326155fe0fe2aa04adce0aee0e99b0865a",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_matched/code/train_matched.py",
+      "source_snapshot_path": "rt_matched/code/train_matched.py",
+      "server_source_sha256": "a5ae1ea4b13d654d6f394e678f5c89a5fc11800375deb2305e82f2580b38901b",
+      "release_sha256": "a5ae1ea4b13d654d6f394e678f5c89a5fc11800375deb2305e82f2580b38901b",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/rt_matched/code/validation_stream_gate.py",
+      "source_snapshot_path": "rt_matched/code/validation_stream_gate.py",
+      "server_source_sha256": "1052af06d7282b7b9d1ccc3e24de0baede3d436dfd90516b4ce924934db04dd4",
+      "release_sha256": "56be401cc269c8ab6fd7c519de3a31daf4eac52962faa1d5cf0f2f80229e487f",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_matched/protocol/experiment.json",
+      "source_snapshot_path": "rt_matched/protocol/experiment.json",
+      "server_source_sha256": "b469a086c02d59008f7bfcc37eb4178de16bc36fb7e2cd09b4af711a0104df6d",
+      "release_sha256": "8ec97e7c4d7d8c9f1ffbcf39358f84358ba9474a8f74a011f307b547bef0aec3",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_matched/protocol/self_metadata.json",
+      "source_snapshot_path": "rt_matched/protocol/self_metadata.json",
+      "server_source_sha256": "69a8edb5adc341a3e656eed74469f4a64d92d313db07ddab3c1210e283c01553",
+      "release_sha256": "a7302183bf28bf5d799341b4c1747e8dd52123c68270d7fd5062a1f748c865dd",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_matched/protocol/sep_testlist.txt",
+      "source_snapshot_path": "rt_matched/protocol/sep_testlist.txt",
+      "server_source_sha256": "5870e9167e0b8e3837a7b47521fe4e7f05d8b6f4f87350b58b4e2c31842baabd",
+      "release_sha256": "5870e9167e0b8e3837a7b47521fe4e7f05d8b6f4f87350b58b4e2c31842baabd",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/rt_matched/protocol/sep_trainlist.txt",
+      "source_snapshot_path": "rt_matched/protocol/sep_trainlist.txt",
+      "server_source_sha256": "709c3e2ad825f46baa58744f3b10f8ba6f6e9256f0f70b89dbed6aba1a97f6d6",
+      "release_sha256": "709c3e2ad825f46baa58744f3b10f8ba6f6e9256f0f70b89dbed6aba1a97f6d6",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/rt_selection/code/common.py",
+      "source_snapshot_path": "rt_selection/code/common.py",
+      "server_source_sha256": "72df6d826920607949a283bd321526558002fb9ad8648322c278984a19559217",
+      "release_sha256": "df1d39d93fb4b9cdc9ed94201b255bbe5f4d7d037908415b136668f1ce152d86",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_selection/code/controller.py",
+      "source_snapshot_path": "rt_selection/code/controller.py",
+      "server_source_sha256": "b91cad71c08d8da4d731f03d27824bf72411db2f58a9197db9c0748569ede6a2",
+      "release_sha256": "3474f96e0820d8c6a8a929d37a2688507c38f8e569129ce9187e35bc8d58aa36",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_selection/code/data.py",
+      "source_snapshot_path": "rt_selection/code/data.py",
+      "server_source_sha256": "c39d2f748cfba5a4a88e06648d784317f7cc8fb67b81fe0a4bf89b079432470f",
+      "release_sha256": "9514566332635852eeb952d1435101fcaacf1c6c8194efc70b2cda165547a74e",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_selection/code/evaluate_selected.py",
+      "source_snapshot_path": "rt_selection/code/evaluate_selected.py",
+      "server_source_sha256": "3cbf9d1615ea982fce2d8a5aab84e007a06d8db1b5babefa69ecf34170b1fc52",
+      "release_sha256": "ab134bf5bb33d6d5696d0b3f68be1cc4320905844ad3c6c90cafee23eebf024d",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_selection/code/model.py",
+      "source_snapshot_path": "rt_selection/code/model.py",
+      "server_source_sha256": "d1d6f90390104d2fa974580fe390c67012def815a9a179c1478ccc7bc6f80093",
+      "release_sha256": "d1d6f90390104d2fa974580fe390c67012def815a9a179c1478ccc7bc6f80093",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/rt_selection/code/preflight.py",
+      "source_snapshot_path": "rt_selection/code/preflight.py",
+      "server_source_sha256": "2b181756fd03ecf9c149b561f730a7eff0342e7f1df0db41d32969720e3ead4e",
+      "release_sha256": "55fcfd6543ed560f208c81cd927a947b654aac29365b4ee85b8ffb053d16f2a6",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_selection/code/validate_candidates.py",
+      "source_snapshot_path": "rt_selection/code/validate_candidates.py",
+      "server_source_sha256": "02f6e2ff4acede93bf0f049ed38bc3d086f8fcba9d5659ed2bc1c94c12e0bde4",
+      "release_sha256": "02f6e2ff4acede93bf0f049ed38bc3d086f8fcba9d5659ed2bc1c94c12e0bde4",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/rt_selection/protocol/experiment.json",
+      "source_snapshot_path": "rt_selection/protocol/experiment.json",
+      "server_source_sha256": "1b51b6a453f7280c12f64da98eeeab9983c4945acbc3b69948667b59357d48f5",
+      "release_sha256": "a5039cf40261ecccf32a4ceedff051b1ee002cfc43f998e8a2f4299be3a03982",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_selection/protocol/self_metadata.json",
+      "source_snapshot_path": "rt_selection/protocol/self_metadata.json",
+      "server_source_sha256": "69a8edb5adc341a3e656eed74469f4a64d92d313db07ddab3c1210e283c01553",
+      "release_sha256": "a7302183bf28bf5d799341b4c1747e8dd52123c68270d7fd5062a1f748c865dd",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_vimeo600/code/common_yuv.py",
+      "source_snapshot_path": "rt_vimeo600/code/common_yuv.py",
+      "server_source_sha256": "e9b7f73c567001c2e1b5a5555ccb4f74b31ac539ba5e9515efe8ba6a3e35671f",
+      "release_sha256": "e9b7f73c567001c2e1b5a5555ccb4f74b31ac539ba5e9515efe8ba6a3e35671f",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/rt_vimeo600/code/controller.py",
+      "source_snapshot_path": "rt_vimeo600/code/controller.py",
+      "server_source_sha256": "1dae92cbd9ccb962a676f5d75c7f7c63bddc493025f8114e9fb7ce227b88de5b",
+      "release_sha256": "e2251a25c323df6e758fa5794361b8bfbc882584870eeca713521924c3bd73df",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_vimeo600/code/learned_worker.py",
+      "source_snapshot_path": "rt_vimeo600/code/learned_worker.py",
+      "server_source_sha256": "1d697bc60d6a75e344c869f2ad6c80b67daafe3b75f8bfe6fcb4b0a9dcf4705e",
+      "release_sha256": "aabf38b5f8df3b2800a19e664d28d49fcae1eb6c17727949cf8c13535fee62b1",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_vimeo600/protocol/benchmark.json",
+      "source_snapshot_path": "rt_vimeo600/protocol/benchmark.json",
+      "server_source_sha256": "da69704d4802720eb01b034b241379f669de0fb1acbb6546622fc7140269a5e0",
+      "release_sha256": "dcba485205f8c6d915229a4d944f3740e15fd671c26483d6df0d102be630ff1a",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_vimeo600/protocol/experiment.json",
+      "source_snapshot_path": "rt_vimeo600/protocol/experiment.json",
+      "server_source_sha256": "9860c845b7ecdd2ea3a7db9b974fe52d52c2f73b96a0f30a58736db03dfedcf4",
+      "release_sha256": "7454b8d480c082dbf52860071b6093c5f5aa81ce4bf67d8062e02d310b6d052b",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_vimeo600/protocol/input_manifest.json",
+      "source_snapshot_path": "rt_vimeo600/protocol/input_manifest.json",
+      "server_source_sha256": "c275a8f1c57c9f61f88c16e109cb96fb8c9b4629b3eb846b640fcc35b825d548",
+      "release_sha256": "c56d2dc81e180fabb6f2303ab2be13d4aad0838c5e239d0441fffdc2f1352a83",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_vimeo600/protocol/source_sha256.json",
+      "source_snapshot_path": "rt_vimeo600/protocol/source_sha256.json",
+      "server_source_sha256": "82341774a927afabc67d02bb3ff247e1f7ed2602d0cb135560d1ccc789aa55d8",
+      "release_sha256": "8e2b987fc6ff5f74d8b7db8e2a58a3a8b0f5df8cfbcd37a310c35178354933e4",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/rt_vimeo600/references/rt_metrics.py",
+      "source_snapshot_path": "rt_vimeo600/references/rt_metrics.py",
+      "server_source_sha256": "986aa1c803aca94d651a1eb3c3f7690f36045a02053972e0275000f1b4f780f9",
+      "release_sha256": "986aa1c803aca94d651a1eb3c3f7690f36045a02053972e0275000f1b4f780f9",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/rt_vimeo600/references/rt_transforms.py",
+      "source_snapshot_path": "rt_vimeo600/references/rt_transforms.py",
+      "server_source_sha256": "8d07100e2e531357f4a315db33e3ae137076b2378d1835888fc6055dfb46fe55",
+      "release_sha256": "8d07100e2e531357f4a315db33e3ae137076b2378d1835888fc6055dfb46fe55",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/tcm_matched/code/adapter.py",
+      "source_snapshot_path": "tcm_matched/code/adapter.py",
+      "server_source_sha256": "139300918b0e29878f1aa8d37748e93b26b3bc058787b58064dae2a33f481804",
+      "release_sha256": "139300918b0e29878f1aa8d37748e93b26b3bc058787b58064dae2a33f481804",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/tcm_matched/code/common.py",
+      "source_snapshot_path": "tcm_matched/code/common.py",
+      "server_source_sha256": "21d9d6b5ada420a14eb14b4bc6ace73a80856627c47fe11ec86534c9dd2567ac",
+      "release_sha256": "aa4bf1602bbd13bb613a4c1f9a102b11be5eb1819b9a3ef8b2e01d75829533c1",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/tcm_matched/code/controller.py",
+      "source_snapshot_path": "tcm_matched/code/controller.py",
+      "server_source_sha256": "aa38d1d304b233e52b8e743fd5ad16ce3aeaef3d94f8524e9e5b33c566467307",
+      "release_sha256": "6ae062021a07d7b9fe1884c7dda969cb35cc9d309c8acde8ae0b7e03d177717d",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/tcm_matched/code/cpu_model_gate.py",
+      "source_snapshot_path": "tcm_matched/code/cpu_model_gate.py",
+      "server_source_sha256": "4271774e39bc65922ec20899a0c292ff3a7d1d3d57499e543e7b327afa683db5",
+      "release_sha256": "4271774e39bc65922ec20899a0c292ff3a7d1d3d57499e543e7b327afa683db5",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/tcm_matched/code/data.py",
+      "source_snapshot_path": "tcm_matched/code/data.py",
+      "server_source_sha256": "59f4df8683158ec42905a1c07baa228710b6ff6cb8e08ae314ba8e26225b814e",
+      "release_sha256": "d8981b6f63392d652c452f3ed4ecb86756b4196d859f17cdea3da32c965b4de6",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/tcm_matched/code/evaluate.py",
+      "source_snapshot_path": "tcm_matched/code/evaluate.py",
+      "server_source_sha256": "be9cc8524b853e7b91bb1fcec9a0cf00be4e0bcc8184522ef6869a3cfee111f7",
+      "release_sha256": "be9cc8524b853e7b91bb1fcec9a0cf00be4e0bcc8184522ef6869a3cfee111f7",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/tcm_matched/code/gradient_gate.py",
+      "source_snapshot_path": "tcm_matched/code/gradient_gate.py",
+      "server_source_sha256": "7bae5ed13e217df394fe6f7b75c84d4111152a0816d28f4c1a2752ea37fb1b36",
+      "release_sha256": "49b5428ff7f0111e7841d95e9fce7789116082daf99bf48581e17b8f79c173f0",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/tcm_matched/code/input_gate.py",
+      "source_snapshot_path": "tcm_matched/code/input_gate.py",
+      "server_source_sha256": "c88d5e9964d646f965bcb603ce2360e932f30310793e0d892c8cb78130b05440",
+      "release_sha256": "19bee0747d9a3d46e0a32a0f64d0e8e07aebc143d2eac10e5b8042f29545031a",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/tcm_matched/code/natural_validation.py",
+      "source_snapshot_path": "tcm_matched/code/natural_validation.py",
+      "server_source_sha256": "02e733c953a81ff6a7103ba4a950a0ae76492774d647d73ddc12b9f69e3d7c3e",
+      "release_sha256": "02e733c953a81ff6a7103ba4a950a0ae76492774d647d73ddc12b9f69e3d7c3e",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/tcm_matched/code/prelaunch_audit.py",
+      "source_snapshot_path": "tcm_matched/code/prelaunch_audit.py",
+      "server_source_sha256": "c65ac55e78e700caa5c72296cf6488ba7961e31535c157c3968ce66a18f58998",
+      "release_sha256": "c65ac55e78e700caa5c72296cf6488ba7961e31535c157c3968ce66a18f58998",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/tcm_matched/code/real_validation_gate.py",
+      "source_snapshot_path": "tcm_matched/code/real_validation_gate.py",
+      "server_source_sha256": "c6b0ecbd0e3386a07e00432b6547ced690ac2deb5106ace07b359e689fb9290f",
+      "release_sha256": "678cc9759c7f2b24810348ea94974815fe17efa4db7509bb9e3201508358e6f0",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/tcm_matched/code/train_matched.py",
+      "source_snapshot_path": "tcm_matched/code/train_matched.py",
+      "server_source_sha256": "1f7bf57bd19a188eecf6035be05034f55b3a1d825d2dddd4191fcd1895011111",
+      "release_sha256": "1f7bf57bd19a188eecf6035be05034f55b3a1d825d2dddd4191fcd1895011111",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/tcm_matched/code/validation.py",
+      "source_snapshot_path": "tcm_matched/code/validation.py",
+      "server_source_sha256": "9d7eddaec4875a8d22be685fb11008cb7daf6e87855b9b1815e63411957ee025",
+      "release_sha256": "9d7eddaec4875a8d22be685fb11008cb7daf6e87855b9b1815e63411957ee025",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/tcm_matched/protocol/experiment.json",
+      "source_snapshot_path": "tcm_matched/protocol/experiment.json",
+      "server_source_sha256": "840b96a3514537f69089e370e2deb006ccb4927448ab1b35d885e7e6c23b2c68",
+      "release_sha256": "36889c8c97324208911ad91e74cd3dfb2d28553c9b800fb8e3a9a5e4b45e4aa9",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/tcm_matched/protocol/self_metadata.json",
+      "source_snapshot_path": "tcm_matched/protocol/self_metadata.json",
+      "server_source_sha256": "69a8edb5adc341a3e656eed74469f4a64d92d313db07ddab3c1210e283c01553",
+      "release_sha256": "a7302183bf28bf5d799341b4c1747e8dd52123c68270d7fd5062a1f748c865dd",
+      "path_or_device_template_changes": true
+    },
+    {
+      "path": "experiments/tcm_matched/protocol/sep_testlist.txt",
+      "source_snapshot_path": "tcm_matched/protocol/sep_testlist.txt",
+      "server_source_sha256": "5870e9167e0b8e3837a7b47521fe4e7f05d8b6f4f87350b58b4e2c31842baabd",
+      "release_sha256": "5870e9167e0b8e3837a7b47521fe4e7f05d8b6f4f87350b58b4e2c31842baabd",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/tcm_matched/protocol/sep_trainlist.txt",
+      "source_snapshot_path": "tcm_matched/protocol/sep_trainlist.txt",
+      "server_source_sha256": "709c3e2ad825f46baa58744f3b10f8ba6f6e9256f0f70b89dbed6aba1a97f6d6",
+      "release_sha256": "709c3e2ad825f46baa58744f3b10f8ba6f6e9256f0f70b89dbed6aba1a97f6d6",
+      "path_or_device_template_changes": false
+    },
+    {
+      "path": "experiments/tcm_matched/references/rt_transforms.py",
+      "source_snapshot_path": "tcm_matched/references/rt_transforms.py",
+      "server_source_sha256": "8d07100e2e531357f4a315db33e3ae137076b2378d1835888fc6055dfb46fe55",
+      "release_sha256": "8d07100e2e531357f4a315db33e3ae137076b2378d1835888fc6055dfb46fe55",
+      "path_or_device_template_changes": false
+    }
+  ]
+}

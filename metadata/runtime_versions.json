@@ -1,0 +1,25 @@
+{
+  "rt": {
+    "python": "3.12.16",
+    "packages": {
+      "pillow": "11.1.0",
+      "scipy": "1.15.3",
+      "torchvision": "0.21.0+cu126",
+      "torch": "2.6.0+cu126",
+      "numpy": "1.26.4",
+      "pybind11": "2.13.6"
+    }
+  },
+  "tcm": {
+    "python": "3.11.15",
+    "packages": {
+      "torchvision": "0.21.0+cu126",
+      "pillow": "11.0.0",
+      "pytorch-msssim": "1.0.0",
+      "pybind11": "3.0.4",
+      "torch": "2.6.0+cu126",
+      "scipy": "1.15.2",
+      "numpy": "2.1.2"
+    }
+  }
+}

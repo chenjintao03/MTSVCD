@@ -1,0 +1,67 @@
+{
+  "reference": "SCVCD-5K SectionIII: benchmark, cross-dataset distribution/performance, before-after finetuning",
+  "user_confirmed_scope": "Experimental organization follows SCVCD; methods follow their own papers; retain frozen82x3x96 IP32",
+  "arms": [
+    "surveillance",
+    "vimeo"
+  ],
+  "model": "original paired DCVC-RT I/P",
+  "frozen_i": true,
+  "all_p_parameters_trainable": true,
+  "frames": 7,
+  "crop": 256,
+  "optimizer": "Adam",
+  "micro_batch": 4,
+  "accumulation": 4,
+  "effective_batch": 16,
+  "updates_per_arm": 3000,
+  "seed": 20261104,
+  "learning_rate": {
+    "warmup_updates": 100,
+    "start": 1e-06,
+    "peak": 5e-06,
+    "half_after_update": 1500
+  },
+  "gradient_clip": 0.2,
+  "qp_sampling": "stratified uniform marginal0..63; identical per-update QPs in both arms",
+  "lambda_range": [
+    1,
+    768
+  ],
+  "qp_offsets": [
+    0,
+    8,
+    0,
+    4,
+    0,
+    4,
+    0,
+    4
+  ],
+  "distortion_weights_for_consecutive_p_frames": [
+    0.5,
+    1.2,
+    0.5,
+    0.9
+  ],
+  "distortion": "0.8*normalizedYUV420(6Y+U+V)/8 MSE +0.2*RGB MSE",
+  "temporal_gradients": "entire six-P cascade; I frozen; single backward per seven-frame microbatch",
+  "checkpoint_every_updates": 250,
+  "checkpoint_selection": "both arms same surveillance81validation videos; common8video screen, top2 candidates full81x3x96; mean normalizedRD improve and everyQP RD regression<=2%; original remains eligible",
+  "natural_validation": "full official Vimeo sep_testlist7824 on selected checkpoint, reported independently",
+  "test": "frozen82 videos3x96 IP32 QP0/21/42/63 reset64 real nativeYUV420 streams original officialI; tests never select weights",
+  "early_stopping": false,
+  "original_generic_rgb_vtm_remains_paused": true,
+  "not_paper_disclosed": [
+    "RT full training code, exact batch, learning rate schedule and adaptation budget are not published in verified paper; these are declared experiment choices",
+    "differentiable training implementation is an adaptation, not released author RT training code",
+    "SCVCD uses8:1:1 andRA; this experiment retains380/81/82 grouped split andlowdelay IP32 by explicit user confirmation",
+    "SCVCD representatives DVC/DCVC-DC are replaced by user-selected RT/TCM; no claim of exactSCVCD numeric reproduction"
+  ],
+  "provenance": {
+    "scvcd_pdf_sha256": "179a731b8d9ad527b121b16fd83fce11a3639d6b5e96add92971780ef6f80918",
+    "rt_pdf_sha256": "84844e2a0b57a62b8992f8e54dec58843a6b1a2d9e8e0f2be87365b8e5d238f6",
+    "hierarchical_weights": "DCVC-RT Sec5.1 followsDCVC-DC Sec4.1; verified author PDF https://www.microsoft.com/en-us/research/uploads/prod/2023/06/Neural-Video-Compression-with-Diverse-Contexts.pdf"
+  },
+  "real_validation_guard": "Before formal test:8fixed surveillance validation middle96 clips; original vs selected same real-stream loss, all4QP independent decode; mean ratio<1 and maxperQP<=1.02 or select original; no test frames used"
+}

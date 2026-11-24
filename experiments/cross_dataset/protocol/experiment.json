@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "purpose": "SCVCD-style descriptive content-dependence of original RT",
+  "models": "Frozen CVPR2025 original paired I/P, ordinaryfp16",
+  "qp": [
+    0,
+    21,
+    42,
+    63
+  ],
+  "frames_per_window": 96,
+  "windows_per_video": 3,
+  "intra_period": 32,
+  "reset_interval": 64,
+  "force_zero_threshold": 0.12,
+  "geometry": "Native dimensions, official replicate padding to16; automatic dual entropy coder if H*W>1280*720",
+  "colour": "Native8bit420 unmodified official reader; unmodified official component metrics, no extraRGB roundtrip",
+  "metrics": "PSNR=(6Y+U+V)/8; MS-SSIM=(6Y+U+V)/8; full real stream bytes/native pixels/frame count",
+  "datasets": [
+    "HEVC_B",
+    "HEVC_C",
+    "HEVC_D",
+    "HEVC_E"
+  ],
+  "source_videos": 16,
+  "windows": 48,
+  "expected_results": 192,
+  "expected_frames": 18432,
+  "frame_selection": "Frozen metadata beginning/middle/end96; official frame count excludes extra physical tails; report overlapping240frame videos",
+  "fps": "Filename nominal fps only, no temporal resampling; do not use official total_kbps assuming30fps",
+  "pilot": "First frozen window from each group, all4QP,16points1536frames, fresh models decode and native component metrics recomputed before full job",
+  "full": "All192points fresh-model independent decode and stream SHA; reuse valid16pilot points without changing labels/protocol",
+  "aggregation": "Each original video equal weight, average its3windows then group; descriptive curves with native geometry/fps caveats; never BD-rate savings between unmatched content",
+  "wait_for": "Matched TCM full server complete_audit passed and actual workers exited",
+  "gpu_physical": [
+    4,
+    5
+  ],
+  "gpu_assignment": {
+    "4": [
+      0,
+      42
+    ],
+    "5": [
+      21,
+      63
+    ]
+  },
+  "no_extra_datasets": true,
+  "paused_uvg_vtm_remain_paused": true,
+  "metadata_sha256": "816074168e05990880a07e551ab9abeea663805824f43bec969200b78d8b8b6a",
+  "source_sha256": {
+    "code/common.py": "27bd858269f32322221edd0b46aa73b7974187af8941dbe1a9c2fbcd132dafa4",
+    "code/controller.py": "ce4c514deeae53709a578281bb73c1a4230b2d9bad09482cd3ac6028a9c175f8",
+    "code/native_window.py": "9278cf898768e1a85fc4430f751b868ef3f6bca60091f29cfd97ce9782ba68b8",
+    "code/preflight.py": "2b84892909f51afce8fcce4f744b53c25561a51645b8c20a61ee24af63745d64",
+    "code/worker.py": "efa599f129dd2f82ff1409c167c6a23819212b19a5a25b4030ee716e49b6e665"
+  }
+}

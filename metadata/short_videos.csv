@@ -1,0 +1,544 @@
+id,subset,camera,path,split,reviewed_group_id,effective_category,category_name,label_review_status,usage,frames,pix_fmt
+short/cam0001,short,cam0001,processed_video/cam0001/clip01.mp4,test,rg_f7170199f649,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0002,short,cam0002,processed_video/cam0002/clip01.mp4,val,rg_c9af9b5f73a5,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuvj420p
+short/cam0003,short,cam0003,processed_video/cam0003/clip01.mp4,train,rg_6bc13d4aeab5,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuvj420p
+short/cam0004,short,cam0004,processed_video/cam0004/clip01.mp4,train,rg_9a6f04cdf75b,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuvj420p
+short/cam0005,short,cam0005,processed_video/cam0005/clip01.mp4,train,rg_a69f2d472208,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuvj420p
+short/cam0006,short,cam0006,processed_video/cam0006/clip01.mp4,train,rg_a69f2d472208,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuvj420p
+short/cam0007,short,cam0007,processed_video/cam0007/clip01.mp4,train,rg_9a6f04cdf75b,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuvj420p
+short/cam0008,short,cam0008,processed_video/cam0008/clip01.mp4,train,rg_e238fc57be37,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0009,short,cam0009,processed_video/cam0009/clip01.mp4,train,rg_e33c81685126,R,Roads and parking areas,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0010,short,cam0010,processed_video/cam0010/clip01.mp4,val,rg_c8bfa97b5491,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0011,short,cam0011,processed_video/cam0011/clip01.mp4,train,rg_e490dc57dcaf,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0012,short,cam0012,processed_video/cam0012/clip01.mp4,train,rg_c156a25bd434,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0013,short,cam0013,processed_video/cam0013/clip01.mp4,train,rg_717db3785cf3,A,Airports and aviation facilities,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0014,short,cam0014,processed_video/cam0014/clip01.mp4,train,rg_dbdbd3cf4ef3,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0015,short,cam0015,processed_video/cam0015/clip01.mp4,train,rg_d62e17678e67,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0016,short,cam0016,processed_video/cam0016/clip01.mp4,val,rg_c5cb67466858,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0017,short,cam0017,processed_video/cam0017/clip01.mp4,test,rg_1389956342e7,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0018,short,cam0018,processed_video/cam0018/clip01.mp4,train,rg_ee98fd0b744f,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0019,short,cam0019,processed_video/cam0019/clip01.mp4,train,rg_edfb2f415e41,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0020,short,cam0020,processed_video/cam0020/clip01.mp4,train,rg_79b837302229,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0021,short,cam0021,processed_video/cam0021/clip01.mp4,train,rg_cf94764919ad,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0022,short,cam0022,processed_video/cam0022/clip01.mp4,val,rg_bd1942c0fe44,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0023,short,cam0023,processed_video/cam0023/clip01.mp4,test,rg_62843431e962,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0024,short,cam0024,processed_video/cam0024/clip01.mp4,train,rg_504271f12aa7,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0025,short,cam0025,processed_video/cam0025/clip01.mp4,val,rg_3afb8992f764,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0026,short,cam0026,processed_video/cam0026/clip01.mp4,train,rg_2404f2fd6ad7,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0027,short,cam0027,processed_video/cam0027/clip01.mp4,train,rg_9d14e784d48e,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0028,short,cam0028,processed_video/cam0028/clip01.mp4,train,rg_4cd008941e1d,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0029,short,cam0029,processed_video/cam0029/clip01.mp4,test,rg_d025927fff63,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0030,short,cam0030,processed_video/cam0030/clip01.mp4,test,rg_441ae61bff41,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0031,short,cam0031,processed_video/cam0031/clip01.mp4,val,rg_e86288f702d4,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0032,short,cam0032,processed_video/cam0032/clip01.mp4,test,rg_bd9eeb3bc2e9,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0033,short,cam0033,processed_video/cam0033/clip01.mp4,train,rg_1e3ae4f0cb57,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0034,short,cam0034,processed_video/cam0034/clip01.mp4,test,rg_31b7d0929b08,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0035,short,cam0035,processed_video/cam0035/clip01.mp4,train,rg_749904b0b44e,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0036,short,cam0036,processed_video/cam0036/clip01.mp4,train,rg_01b0a5b0f034,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0037,short,cam0037,processed_video/cam0037/clip01.mp4,train,rg_bfa31e857752,R,Roads and parking areas,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0038,short,cam0038,processed_video/cam0038/clip01.mp4,train,rg_7e6581f00b7d,A,Airports and aviation facilities,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0039,short,cam0039,processed_video/cam0039/clip01.mp4,train,rg_32b7de9f7892,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0040,short,cam0040,processed_video/cam0040/clip01.mp4,test,rg_1a0a317e16fb,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0041,short,cam0041,processed_video/cam0041/clip01.mp4,train,rg_88c0f42da849,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0042,short,cam0042,processed_video/cam0042/clip01.mp4,val,rg_ae015ba4b68a,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0043,short,cam0043,processed_video/cam0043/clip01.mp4,train,rg_f31c1e50f9e5,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0044,short,cam0044,processed_video/cam0044/clip01.mp4,test,rg_64fa4c48950e,N,Vegetation and animal observation,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0045,short,cam0045,processed_video/cam0045/clip01.mp4,train,rg_0cb8840eeca5,N,Vegetation and animal observation,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0046,short,cam0046,processed_video/cam0046/clip01.mp4,train,rg_ede0e615e886,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0047,short,cam0047,processed_video/cam0047/clip01.mp4,train,rg_70ee0448f865,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0048,short,cam0048,processed_video/cam0048/clip01.mp4,train,rg_08197c5001bd,A,Airports and aviation facilities,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0049,short,cam0049,processed_video/cam0049/clip01.mp4,val,rg_d1d41a87a8c2,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0050,short,cam0050,processed_video/cam0050/clip01.mp4,test,rg_f0c93bcf979b,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0051,short,cam0051,processed_video/cam0051/clip01.mp4,val,rg_1441286ecf74,A,Airports and aviation facilities,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0052,short,cam0052,processed_video/cam0052/clip01.mp4,train,rg_ff43149aad93,A,Airports and aviation facilities,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0053,short,cam0053,processed_video/cam0053/clip01.mp4,train,rg_50706db1d832,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0054,short,cam0054,processed_video/cam0054/clip01.mp4,train,rg_430a0c927e87,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0055,short,cam0055,processed_video/cam0055/clip01.mp4,train,rg_957a21fa3fb5,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0056,short,cam0056,processed_video/cam0056/clip01.mp4,train,rg_a3577bb3941c,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0057,short,cam0057,processed_video/cam0057/clip01.mp4,train,rg_02b279eed657,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0058,short,cam0058,processed_video/cam0058/clip01.mp4,train,rg_5800957bffd6,N,Vegetation and animal observation,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0059,short,cam0059,processed_video/cam0059/clip01.mp4,train,rg_ff4e923e9155,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0060,short,cam0060,processed_video/cam0060/clip01.mp4,train,rg_070b05081268,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0061,short,cam0061,processed_video/cam0061/clip01.mp4,val,rg_63b7e0c6e7cb,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0062,short,cam0062,processed_video/cam0062/clip01.mp4,test,rg_a7ce9ec03618,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0063,short,cam0063,processed_video/cam0063/clip01.mp4,train,rg_fe0e481de08b,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0064,short,cam0064,processed_video/cam0064/clip01.mp4,val,rg_c7e40be9ef91,N,Vegetation and animal observation,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0065,short,cam0065,processed_video/cam0065/clip01.mp4,train,rg_e3d3eef5bcf7,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0066,short,cam0066,processed_video/cam0066/clip01.mp4,train,rg_c85b1e69e3a5,N,Vegetation and animal observation,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0067,short,cam0067,processed_video/cam0067/clip01.mp4,train,rg_923f9d7ffdc4,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0068,short,cam0068,processed_video/cam0068/clip01.mp4,train,rg_fa340c3ec994,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0069,short,cam0069,processed_video/cam0069/clip01.mp4,val,rg_91f24089d646,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0070,short,cam0070,processed_video/cam0070/clip01.mp4,train,rg_5526701a328f,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0071,short,cam0071,processed_video/cam0071/clip01.mp4,train,rg_283b951d8bb9,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0072,short,cam0072,processed_video/cam0072/clip01.mp4,train,rg_b72e9fb0ce7f,N,Vegetation and animal observation,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0073,short,cam0073,processed_video/cam0073/clip01.mp4,test,rg_225f19c05395,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0074,short,cam0074,processed_video/cam0074/clip01.mp4,train,rg_c0bb958e454f,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0075,short,cam0075,processed_video/cam0075/clip01.mp4,train,rg_107807f43277,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0076,short,cam0076,processed_video/cam0076/clip01.mp4,train,rg_e8ce527b2583,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0077,short,cam0077,processed_video/cam0077/clip01.mp4,train,rg_d8a9f9b1c444,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0078,short,cam0078,processed_video/cam0078/clip01.mp4,train,rg_4940e5d17ed1,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0079,short,cam0079,processed_video/cam0079/clip01.mp4,train,rg_2d4e285eb3c7,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0080,short,cam0080,processed_video/cam0080/clip01.mp4,train,rg_861d9b11fe10,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0081,short,cam0081,processed_video/cam0081/clip01.mp4,train,rg_686bc6875968,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0082,short,cam0082,processed_video/cam0082/clip01.mp4,train,rg_8906faeacc13,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0083,short,cam0083,processed_video/cam0083/clip01.mp4,train,rg_097e74ca7635,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0084,short,cam0084,processed_video/cam0084/clip01.mp4,val,rg_1e6c85254000,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0085,short,cam0085,processed_video/cam0085/clip01.mp4,train,rg_3bf265c9c38d,A,Airports and aviation facilities,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0086,short,cam0086,processed_video/cam0086/clip01.mp4,train,rg_036e486a7523,N,Vegetation and animal observation,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0087,short,cam0087,processed_video/cam0087/clip01.mp4,test,rg_434e854043fc,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0088,short,cam0088,processed_video/cam0088/clip01.mp4,train,rg_e5a693aa2d3e,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0089,short,cam0089,processed_video/cam0089/clip01.mp4,train,rg_5962e7b0c075,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0090,short,cam0090,processed_video/cam0090/clip01.mp4,val,rg_e23b37a3168e,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0091,short,cam0091,processed_video/cam0091/clip01.mp4,val,rg_b82c3c1c44c2,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0092,short,cam0092,processed_video/cam0092/clip01.mp4,val,rg_fc6ac76279ae,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0093,short,cam0093,processed_video/cam0093/clip01.mp4,train,rg_19639d73306e,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0094,short,cam0094,processed_video/cam0094/clip01.mp4,train,rg_eb03a861ef01,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0095,short,cam0095,processed_video/cam0095/clip01.mp4,train,rg_c88740398a7b,R,Roads and parking areas,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0096,short,cam0096,processed_video/cam0096/clip01.mp4,train,rg_dfd477ff234d,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0097,short,cam0097,processed_video/cam0097/clip01.mp4,train,rg_2680ea98d619,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0098,short,cam0098,processed_video/cam0098/clip01.mp4,train,rg_40b71d360ddc,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0099,short,cam0099,processed_video/cam0099/clip01.mp4,train,rg_496ba819fc27,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0100,short,cam0100,processed_video/cam0100/clip01.mp4,train,rg_9687978b320f,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0101,short,cam0101,processed_video/cam0101/clip01.mp4,train,rg_b5ced5e1f91a,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0102,short,cam0102,processed_video/cam0102/clip01.mp4,train,rg_72d1a83f95d9,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0103,short,cam0103,processed_video/cam0103/clip01.mp4,train,rg_137288ec27ce,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0104,short,cam0104,processed_video/cam0104/clip01.mp4,val,rg_b480136d9fdd,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0105,short,cam0105,processed_video/cam0105/clip01.mp4,train,rg_3374c6015f2c,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0106,short,cam0106,processed_video/cam0106/clip01.mp4,test,rg_1dda076f592d,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0107,short,cam0107,processed_video/cam0107/clip01.mp4,val,rg_622328c3e101,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0108,short,cam0108,processed_video/cam0108/clip01.mp4,train,rg_1c01d02d12f5,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0109,short,cam0109,processed_video/cam0109/clip01.mp4,train,rg_9f1a068d26a3,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0110,short,cam0110,processed_video/cam0110/clip01.mp4,test,rg_2b04709c225c,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0111,short,cam0111,processed_video/cam0111/clip01.mp4,train,rg_401d418d7ddf,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0112,short,cam0112,processed_video/cam0112/clip01.mp4,train,rg_41d75c890944,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0113,short,cam0113,processed_video/cam0113/clip01.mp4,train,rg_82e092732a8f,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0114,short,cam0114,processed_video/cam0114/clip01.mp4,val,rg_bc478bc3887b,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0115,short,cam0115,processed_video/cam0115/clip01.mp4,test,rg_34b1aa6bee26,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0116,short,cam0116,processed_video/cam0116/clip01.mp4,train,rg_984bec8ab2b2,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0117,short,cam0117,processed_video/cam0117/clip01.mp4,train,rg_37a589054015,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0118,short,cam0118,processed_video/cam0118/clip01.mp4,val,rg_7a2f8dd38408,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0119,short,cam0119,processed_video/cam0119/clip01.mp4,train,rg_57328b01371a,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0120,short,cam0120,processed_video/cam0120/clip01.mp4,train,rg_412f8b9a8a9e,N,Vegetation and animal observation,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0121,short,cam0121,processed_video/cam0121/clip01.mp4,train,rg_33b47fb00f24,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0122,short,cam0122,processed_video/cam0122/clip01.mp4,test,rg_3f3c885f6e10,N,Vegetation and animal observation,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0123,short,cam0123,processed_video/cam0123/clip01.mp4,train,rg_6c395890fd30,W,Waterfront and water scenes,accepted,compression_training_validation_or_test,3601,yuv420p
+short/cam0124,short,cam0124,processed_video/cam0124/clip01.mp4,train,rg_fd535d2dced9,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0125,short,cam0125,processed_video/cam0125/clip01.mp4,test,rg_3ee56e57115d,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0126,short,cam0126,processed_video/cam0126/clip01.mp4,train,rg_27669d530eef,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0127,short,cam0127,processed_video/cam0127/clip01.mp4,train,rg_6701da8366fa,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0128,short,cam0128,processed_video/cam0128/clip01.mp4,train,rg_8e4c769f106f,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0129,short,cam0129,processed_video/cam0129/clip01.mp4,test,rg_f525d418e862,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0130,short,cam0130,processed_video/cam0130/clip01.mp4,train,rg_9506b310d5b8,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0131,short,cam0131,processed_video/cam0131/clip01.mp4,train,rg_7af7628d7c7b,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0132,short,cam0132,processed_video/cam0132/clip01.mp4,train,rg_7af7628d7c7b,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0133,short,cam0133,processed_video/cam0133/clip01.mp4,train,rg_57a7d69ecdd2,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0134,short,cam0134,processed_video/cam0134/clip01.mp4,train,rg_57a7d69ecdd2,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0135,short,cam0135,processed_video/cam0135/clip01.mp4,train,rg_337f651a8c36,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0136,short,cam0136,processed_video/cam0136/clip01.mp4,test,rg_8baf209eb721,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0137,short,cam0137,processed_video/cam0137/clip01.mp4,train,rg_d8db8084d083,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0138,short,cam0138,processed_video/cam0138/clip01.mp4,train,rg_abbc5940f9eb,N,Vegetation and animal observation,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0139,short,cam0139,processed_video/cam0139/clip01.mp4,train,rg_b851f58eb5ec,N,Vegetation and animal observation,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0140,short,cam0140,processed_video/cam0140/clip01.mp4,val,rg_6b1c5433ee01,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0141,short,cam0141,processed_video/cam0141/clip01.mp4,test,rg_69a75d131870,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0142,short,cam0142,processed_video/cam0142/clip01.mp4,val,rg_2c658b59ccaa,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0143,short,cam0143,processed_video/cam0143/clip01.mp4,val,rg_c923f2bed08d,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0144,short,cam0144,processed_video/cam0144/clip01.mp4,train,rg_b196eb993af5,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0145,short,cam0145,processed_video/cam0145/clip01.mp4,test,rg_568f17b8f342,A,Airports and aviation facilities,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0146,short,cam0146,processed_video/cam0146/clip01.mp4,val,rg_4ee4f7d306c1,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0147,short,cam0147,processed_video/cam0147/clip01.mp4,test,rg_59355b68aecf,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0148,short,cam0148,processed_video/cam0148/clip01.mp4,train,rg_124fefc81cc2,X,Other viewpoints,accepted,compression_training_validation_or_test,3601,yuv420p
+short/cam0149,short,cam0149,processed_video/cam0149/clip01.mp4,train,rg_b196eb993af5,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0150,short,cam0150,processed_video/cam0150/clip01.mp4,train,rg_50ba9054ac20,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0151,short,cam0151,processed_video/cam0151/clip01.mp4,val,rg_78a6ad532b4c,N,Vegetation and animal observation,accepted,compression_training_validation_or_test,3601,yuv420p
+short/cam0152,short,cam0152,processed_video/cam0152/clip01.mp4,train,rg_af6a4db6553a,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0153,short,cam0153,processed_video/cam0153/clip01.mp4,train,rg_af6a4db6553a,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0154,short,cam0154,processed_video/cam0154/clip01.mp4,train,rg_28fb4df64b41,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0155,short,cam0155,processed_video/cam0155/clip01.mp4,val,rg_9d05ea713af0,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0156,short,cam0156,processed_video/cam0156/clip01.mp4,train,rg_b982dfeced59,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0157,short,cam0157,processed_video/cam0157/clip01.mp4,train,rg_2eaa14aefbc9,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0158,short,cam0158,processed_video/cam0158/clip01.mp4,train,rg_982519664c46,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0159,short,cam0159,processed_video/cam0159/clip01.mp4,test,rg_6a3a00545bb7,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0160,short,cam0160,processed_video/cam0160/clip01.mp4,train,rg_cff276c10be0,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0161,short,cam0161,processed_video/cam0161/clip01.mp4,train,rg_2cf90ecad513,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0162,short,cam0162,processed_video/cam0162/clip01.mp4,train,rg_502cc2787068,N,Vegetation and animal observation,accepted,compression_training_validation_or_test,3601,yuv420p
+short/cam0163,short,cam0163,processed_video/cam0163/clip01.mp4,test,rg_ce1b40f0e4a4,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0164,short,cam0164,processed_video/cam0164/clip01.mp4,train,rg_9097817d473a,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0165,short,cam0165,processed_video/cam0165/clip01.mp4,train,rg_21a3a51b7c47,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0166,short,cam0166,processed_video/cam0166/clip01.mp4,train,rg_6701da8366fa,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0167,short,cam0167,processed_video/cam0167/clip01.mp4,train,rg_edfef32400b4,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0168,short,cam0168,processed_video/cam0168/clip01.mp4,train,rg_6c9b0303f58a,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0169,short,cam0169,processed_video/cam0169/clip01.mp4,train,rg_6689ce710cf7,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0170,short,cam0170,processed_video/cam0170/clip01.mp4,train,rg_7ab05c72647a,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0171,short,cam0171,processed_video/cam0171/clip01.mp4,train,rg_3d395da4e044,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0172,short,cam0172,processed_video/cam0172/clip01.mp4,test,rg_512e10838867,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0173,short,cam0173,processed_video/cam0173/clip01.mp4,train,rg_b3b3f159e95d,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0174,short,cam0174,processed_video/cam0174/clip01.mp4,train,rg_b24430456d7b,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0175,short,cam0175,processed_video/cam0175/clip01.mp4,val,rg_58e06243f585,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0176,short,cam0176,processed_video/cam0176/clip01.mp4,train,rg_92f8e0d50c30,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0177,short,cam0177,processed_video/cam0177/clip01.mp4,val,rg_2eefaf5cbc44,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0178,short,cam0178,processed_video/cam0178/clip01.mp4,train,rg_2cf90ecad513,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0179,short,cam0179,processed_video/cam0179/clip01.mp4,val,rg_447815532e80,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0180,short,cam0180,processed_video/cam0180/clip01.mp4,test,rg_02c2786ce7e8,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0181,short,cam0181,processed_video/cam0181/clip01.mp4,train,rg_176dd9a31c14,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0182,short,cam0182,processed_video/cam0182/clip01.mp4,train,rg_7af7628d7c7b,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0183,short,cam0183,processed_video/cam0183/clip01.mp4,train,rg_845cc5cb742f,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0184,short,cam0184,processed_video/cam0184/clip01.mp4,train,rg_b6a7383c9650,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0185,short,cam0185,processed_video/cam0185/clip01.mp4,train,rg_3b2631f5893d,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3601,yuv420p
+short/cam0186,short,cam0186,processed_video/cam0186/clip01.mp4,train,rg_b9aa34107ffd,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuvj420p
+short/cam0187,short,cam0187,processed_video/cam0187/clip01.mp4,train,rg_67c9c1a419f0,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0188,short,cam0188,processed_video/cam0188/clip01.mp4,train,rg_fe1e90ba3f52,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0189,short,cam0189,processed_video/cam0189/clip01.mp4,train,rg_a1a17d4166a1,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0190,short,cam0190,processed_video/cam0190/clip01.mp4,train,rg_3ff92b726dd0,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0191,short,cam0191,processed_video/cam0191/clip01.mp4,test,rg_1072aaf51285,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0192,short,cam0192,processed_video/cam0192/clip01.mp4,val,rg_96c69040c7e7,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0193,short,cam0193,processed_video/cam0193/clip01.mp4,train,rg_73a376c2a7b1,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0194,short,cam0194,processed_video/cam0194/clip01.mp4,train,rg_71ec3c2ca98f,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0195,short,cam0195,processed_video/cam0195/clip01.mp4,train,rg_a52549e71dc9,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0196,short,cam0196,processed_video/cam0196/clip01.mp4,test,rg_4b5692940369,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0197,short,cam0197,processed_video/cam0197/clip01.mp4,train,rg_374f80445335,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0198,short,cam0198,processed_video/cam0198/clip01.mp4,train,rg_999096c87193,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0199,short,cam0199,processed_video/cam0199/clip01.mp4,test,rg_f95ad66adffe,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0200,short,cam0200,processed_video/cam0200/clip01.mp4,train,rg_57c755756595,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0201,short,cam0201,processed_video/cam0201/clip01.mp4,val,rg_c70aaea648e4,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0202,short,cam0202,processed_video/cam0202/clip01.mp4,val,rg_232676709066,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0203,short,cam0203,processed_video/cam0203/clip01.mp4,train,rg_9c1db29a3d8a,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0204,short,cam0204,processed_video/cam0204/clip01.mp4,train,rg_c62874006a53,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0205,short,cam0205,processed_video/cam0205/clip01.mp4,train,rg_575f488eeb51,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0206,short,cam0206,processed_video/cam0206/clip01.mp4,train,rg_bd01d93a9e55,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0207,short,cam0207,processed_video/cam0207/clip01.mp4,train,rg_6042ad0ca3d9,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0208,short,cam0208,processed_video/cam0208/clip01.mp4,train,rg_1205d2b4e48b,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0209,short,cam0209,processed_video/cam0209/clip01.mp4,train,rg_3712032f7f54,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3506,yuv420p
+short/cam0210,short,cam0210,processed_video/cam0210/clip01.mp4,train,rg_1af36e4ac109,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0211,short,cam0211,processed_video/cam0211/clip01.mp4,train,rg_cf103bdc02db,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0212,short,cam0212,processed_video/cam0212/clip01.mp4,val,rg_06adddf662ea,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0213,short,cam0213,processed_video/cam0213/clip01.mp4,train,rg_245176bbe1a6,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0214,short,cam0214,processed_video/cam0214/clip01.mp4,train,rg_beafe8d21507,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0215,short,cam0215,processed_video/cam0215/clip01.mp4,test,rg_78d7ae66577a,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0216,short,cam0216,processed_video/cam0216/clip01.mp4,train,rg_9f31a6f0edf6,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0217,short,cam0217,processed_video/cam0217/clip01.mp4,train,rg_add9170e2945,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0218,short,cam0218,processed_video/cam0218/clip01.mp4,train,rg_2807a30c3a71,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0219,short,cam0219,processed_video/cam0219/clip01.mp4,test,rg_7bd8ff4f908c,I,Indoor spaces,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0220,short,cam0220,processed_video/cam0220/clip01.mp4,train,rg_a081ad75594a,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0221,short,cam0221,processed_video/cam0221/clip01.mp4,train,rg_93d44f89a791,I,Indoor spaces,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0222,short,cam0222,processed_video/cam0222/clip01.mp4,train,rg_e4959a951889,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0223,short,cam0223,processed_video/cam0223/clip01.mp4,val,rg_2986b00a68ff,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0224,short,cam0224,processed_video/cam0224/clip01.mp4,train,rg_bbe47bdcbcce,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0225,short,cam0225,processed_video/cam0225/clip01.mp4,train,rg_8807e8e09590,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0226,short,cam0226,processed_video/cam0226/clip01.mp4,train,rg_9cf130d40d4b,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0227,short,cam0227,processed_video/cam0227/clip01.mp4,train,rg_85a0cd2a1583,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0228,short,cam0228,processed_video/cam0228/clip01.mp4,val,rg_1354bffc81b1,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0229,short,cam0229,processed_video/cam0229/clip01.mp4,train,rg_f1c2b9100fc0,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0230,short,cam0230,processed_video/cam0230/clip01.mp4,train,rg_260402781bf7,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0231,short,cam0231,processed_video/cam0231/clip01.mp4,train,rg_7d686b1745e8,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0232,short,cam0232,processed_video/cam0232/clip01.mp4,train,rg_c36d89a069af,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0233,short,cam0233,processed_video/cam0233/clip01.mp4,val,rg_575cabf717b5,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0234,short,cam0234,processed_video/cam0234/clip01.mp4,train,rg_64ad6b3488c2,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0235,short,cam0235,processed_video/cam0235/clip01.mp4,test,rg_c72147ffa7ca,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0236,short,cam0236,processed_video/cam0236/clip01.mp4,test,rg_dfd2260703f9,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0237,short,cam0237,processed_video/cam0237/clip01.mp4,train,rg_5b60974c41fe,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0238,short,cam0238,processed_video/cam0238/clip01.mp4,train,rg_313e5ce4fe51,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0239,short,cam0239,processed_video/cam0239/clip01.mp4,val,rg_a4135189d23c,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0240,short,cam0240,processed_video/cam0240/clip01.mp4,train,rg_e14b1ca2e775,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0241,short,cam0241,processed_video/cam0241/clip01.mp4,test,rg_7949d3fe5763,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0242,short,cam0242,processed_video/cam0242/clip01.mp4,val,rg_ccbe2cfb1132,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0243,short,cam0243,processed_video/cam0243/clip01.mp4,train,rg_33a703d6d666,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0244,short,cam0244,processed_video/cam0244/clip01.mp4,test,rg_0774d4e4c8ba,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0245,short,cam0245,processed_video/cam0245/clip01.mp4,train,rg_854c94be9d2a,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0246,short,cam0246,processed_video/cam0246/clip01.mp4,train,rg_9b61fb03dec5,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0247,short,cam0247,processed_video/cam0247/clip01.mp4,train,rg_5899f3e5b2f4,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0248,short,cam0248,processed_video/cam0248/clip01.mp4,train,rg_8145de549b97,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0249,short,cam0249,processed_video/cam0249/clip01.mp4,train,rg_59341297afd9,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0250,short,cam0250,processed_video/cam0250/clip01.mp4,train,rg_dd826613583d,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0251,short,cam0251,processed_video/cam0251/clip01.mp4,train,rg_fe59ee2b08c5,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0252,short,cam0252,processed_video/cam0252/clip01.mp4,test,rg_4511a4a1d02c,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0253,short,cam0253,processed_video/cam0253/clip01.mp4,train,rg_c831889ec221,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0254,short,cam0254,processed_video/cam0254/clip01.mp4,train,rg_356adc6e98e8,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0255,short,cam0255,processed_video/cam0255/clip01.mp4,train,rg_85dc7aaf4ed4,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0256,short,cam0256,processed_video/cam0256/clip01.mp4,val,rg_aa099c5864fe,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0257,short,cam0257,processed_video/cam0257/clip01.mp4,train,rg_fae6dc7cbcde,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0258,short,cam0258,processed_video/cam0258/clip01.mp4,train,rg_991d6d157479,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0259,short,cam0259,processed_video/cam0259/clip01.mp4,train,rg_a45fb70e2984,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0260,short,cam0260,processed_video/cam0260/clip01.mp4,train,rg_71ef00e9112f,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0261,short,cam0261,processed_video/cam0261/clip01.mp4,test,rg_fe0f17e27887,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0262,short,cam0262,processed_video/cam0262/clip01.mp4,train,rg_72a8fd6fc294,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0263,short,cam0263,processed_video/cam0263/clip01.mp4,train,rg_3e2d805903c3,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0264,short,cam0264,processed_video/cam0264/clip01.mp4,train,rg_bcb9fbeccb37,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0265,short,cam0265,processed_video/cam0265/clip01.mp4,train,rg_ef31e5145918,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0266,short,cam0266,processed_video/cam0266/clip01.mp4,train,rg_076e171717b8,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0267,short,cam0267,processed_video/cam0267/clip01.mp4,train,rg_1f536c4203c7,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0268,short,cam0268,processed_video/cam0268/clip01.mp4,train,rg_5c07fef317bd,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0269,short,cam0269,processed_video/cam0269/clip01.mp4,train,rg_9e62486bf556,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0270,short,cam0270,processed_video/cam0270/clip01.mp4,train,rg_2033e091ef1d,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0271,short,cam0271,processed_video/cam0271/clip01.mp4,train,rg_2b296a7d2033,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0272,short,cam0272,processed_video/cam0272/clip01.mp4,train,rg_e421a40076e2,I,Indoor spaces,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0273,short,cam0273,processed_video/cam0273/clip01.mp4,train,rg_36d44c8aefbe,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0274,short,cam0274,processed_video/cam0274/clip01.mp4,train,rg_9ff0b7057ab8,N,Vegetation and animal observation,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0275,short,cam0275,processed_video/cam0275/clip01.mp4,train,rg_5a00626d08de,N,Vegetation and animal observation,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0276,short,cam0276,processed_video/cam0276/clip01.mp4,test,rg_72b2baa091ef,R,Roads and parking areas,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0277,short,cam0277,processed_video/cam0277/clip01.mp4,train,rg_efad6703f03e,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0278,short,cam0278,processed_video/cam0278/clip01.mp4,train,rg_2e7b742b4d61,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0279,short,cam0279,processed_video/cam0279/clip01.mp4,train,rg_cee8cd4d6753,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0280,short,cam0280,processed_video/cam0280/clip01.mp4,test,rg_7b222bbee915,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0281,short,cam0281,processed_video/cam0281/clip01.mp4,train,rg_7320f6231994,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0282,short,cam0282,processed_video/cam0282/clip01.mp4,train,rg_79c54f082afc,N,Vegetation and animal observation,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0283,short,cam0283,processed_video/cam0283/clip01.mp4,val,rg_f12e14b93700,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0284,short,cam0284,processed_video/cam0284/clip01.mp4,val,rg_b92aba2eda47,N,Vegetation and animal observation,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0285,short,cam0285,processed_video/cam0285/clip01.mp4,train,rg_b1df55066e13,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0286,short,cam0286,processed_video/cam0286/clip01.mp4,val,rg_7aac96ddea7c,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0287,short,cam0287,processed_video/cam0287/clip01.mp4,test,rg_aaaaf87a6286,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0288,short,cam0288,processed_video/cam0288/clip01.mp4,train,rg_dd82434afc5d,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0289,short,cam0289,processed_video/cam0289/clip01.mp4,train,rg_1c2aae5d4423,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0290,short,cam0290,processed_video/cam0290/clip01.mp4,train,rg_c404f600fcb9,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0291,short,cam0291,processed_video/cam0291/clip01.mp4,train,rg_8c31acdd8483,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0292,short,cam0292,processed_video/cam0292/clip01.mp4,test,rg_3d3780059211,N,Vegetation and animal observation,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0293,short,cam0293,processed_video/cam0293/clip01.mp4,train,rg_258cc5b4b5e6,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0294,short,cam0294,processed_video/cam0294/clip01.mp4,val,rg_54ff16fba304,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0295,short,cam0295,processed_video/cam0295/clip01.mp4,train,rg_d54fc077d6ef,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0296,short,cam0296,processed_video/cam0296/clip01.mp4,test,rg_f00fa278d6c5,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0297,short,cam0297,processed_video/cam0297/clip01.mp4,train,rg_904d0fdd60b6,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0298,short,cam0298,processed_video/cam0298/clip01.mp4,train,rg_38d61a694ec9,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0299,short,cam0299,processed_video/cam0299/clip01.mp4,train,rg_6d11f58d3234,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0300,short,cam0300,processed_video/cam0300/clip01.mp4,train,rg_ac6376bf4a6e,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0301,short,cam0301,processed_video/cam0301/clip01.mp4,train,rg_d7807a66140a,N,Vegetation and animal observation,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0302,short,cam0302,processed_video/cam0302/clip01.mp4,val,rg_10b1fadf9cfb,N,Vegetation and animal observation,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0303,short,cam0303,processed_video/cam0303/clip01.mp4,train,rg_495c81a9b6b8,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0304,short,cam0304,processed_video/cam0304/clip01.mp4,train,rg_a189a9fe541d,N,Vegetation and animal observation,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0305,short,cam0305,processed_video/cam0305/clip01.mp4,test,rg_b345f0dd8c79,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0306,short,cam0306,processed_video/cam0306/clip01.mp4,train,rg_76e8ea168d2a,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0307,short,cam0307,processed_video/cam0307/clip01.mp4,train,rg_8a9e014b7b75,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0308,short,cam0308,processed_video/cam0308/clip01.mp4,train,rg_1c2595d07ab3,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0309,short,cam0309,processed_video/cam0309/clip01.mp4,train,rg_c690efa07573,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0310,short,cam0310,processed_video/cam0310/clip01.mp4,train,rg_e9eda1e91d8f,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0311,short,cam0311,processed_video/cam0311/clip01.mp4,train,rg_cedbdc0b2ef2,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0312,short,cam0312,processed_video/cam0312/clip01.mp4,train,rg_6d27bfe0a953,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0313,short,cam0313,processed_video/cam0313/clip01.mp4,train,rg_f120912bfa89,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0314,short,cam0314,processed_video/cam0314/clip01.mp4,val,rg_d91cec9e799e,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0315,short,cam0315,processed_video/cam0315/clip01.mp4,train,rg_aca437bcaf29,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0316,short,cam0316,processed_video/cam0316/clip01.mp4,train,rg_e0b1975fdc95,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0317,short,cam0317,processed_video/cam0317/clip01.mp4,val,rg_091e8f47c98d,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0318,short,cam0318,processed_video/cam0318/clip01.mp4,train,rg_abd2e5a31ffe,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0319,short,cam0319,processed_video/cam0319/clip01.mp4,val,rg_790db8a881a9,T,Railways and rail transit,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0320,short,cam0320,processed_video/cam0320/clip01.mp4,train,rg_86b0aaeb6d94,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0321,short,cam0321,processed_video/cam0321/clip01.mp4,val,rg_2d52b57b29fe,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0322,short,cam0322,processed_video/cam0322/clip01.mp4,train,rg_77f6f9205126,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0323,short,cam0323,processed_video/cam0323/clip01.mp4,train,rg_e2cefc525f79,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0324,short,cam0324,processed_video/cam0324/clip01.mp4,train,rg_f6b2558b97d1,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0325,short,cam0325,processed_video/cam0325/clip01.mp4,train,rg_6013996d6b27,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0326,short,cam0326,processed_video/cam0326/clip01.mp4,train,rg_49f07d782c1f,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0327,short,cam0327,processed_video/cam0327/clip01.mp4,test,rg_10aa02de6496,T,Railways and rail transit,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0328,short,cam0328,processed_video/cam0328/clip01.mp4,train,rg_fc8059c89ac1,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0329,short,cam0329,processed_video/cam0329/clip01.mp4,train,rg_8fc08d7b8b5d,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0330,short,cam0330,processed_video/cam0330/clip01.mp4,train,rg_b92b538d7d08,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0331,short,cam0331,processed_video/cam0331/clip01.mp4,train,rg_d951f8d5de92,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0332,short,cam0332,processed_video/cam0332/clip01.mp4,test,rg_a61b1967739b,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0333,short,cam0333,processed_video/cam0333/clip01.mp4,train,rg_b7c5a1029f8e,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0334,short,cam0334,processed_video/cam0334/clip01.mp4,train,rg_0b132b855c18,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0335,short,cam0335,processed_video/cam0335/clip01.mp4,test,rg_777f7af2fcb3,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0336,short,cam0336,processed_video/cam0336/clip01.mp4,train,rg_3e085d5c98cd,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0337,short,cam0337,processed_video/cam0337/clip01.mp4,train,rg_ca0551943afe,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0338,short,cam0338,processed_video/cam0338/clip01.mp4,train,rg_864ef243e76e,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0339,short,cam0339,processed_video/cam0339/clip01.mp4,val,rg_4f0b708f88ca,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0340,short,cam0340,processed_video/cam0340/clip01.mp4,train,rg_2f64dfb698b7,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0341,short,cam0341,processed_video/cam0341/clip01.mp4,test,rg_122a7f4ad65b,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0342,short,cam0342,processed_video/cam0342/clip01.mp4,train,rg_ff63d2dc7673,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0343,short,cam0343,processed_video/cam0343/clip01.mp4,test,rg_1e9857851e16,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0344,short,cam0344,processed_video/cam0344/clip01.mp4,train,rg_c78af3bedc9e,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0345,short,cam0345,processed_video/cam0345/clip01.mp4,train,rg_4b79d309a085,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0346,short,cam0346,processed_video/cam0346/clip01.mp4,train,rg_427f0fc40a70,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0347,short,cam0347,processed_video/cam0347/clip01.mp4,val,rg_3ce3933b8f18,T,Railways and rail transit,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0348,short,cam0348,processed_video/cam0348/clip01.mp4,test,rg_d73d8f02cf2e,T,Railways and rail transit,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0349,short,cam0349,processed_video/cam0349/clip01.mp4,val,rg_0756e671e13b,T,Railways and rail transit,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0350,short,cam0350,processed_video/cam0350/clip01.mp4,train,rg_3b7b2e37f0fc,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0351,short,cam0351,processed_video/cam0351/clip01.mp4,val,rg_3480bf385a74,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0352,short,cam0352,processed_video/cam0352/clip01.mp4,train,rg_1221f72d9c72,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0353,short,cam0353,processed_video/cam0353/clip01.mp4,test,rg_1361a2bfc4ec,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0354,short,cam0354,processed_video/cam0354/clip01.mp4,train,rg_f14dbe566f09,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0355,short,cam0355,processed_video/cam0355/clip01.mp4,train,rg_ef2bfa1c8b6b,R,Roads and parking areas,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0356,short,cam0356,processed_video/cam0356/clip01.mp4,train,rg_b2ecb0dd5598,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0357,short,cam0357,processed_video/cam0357/clip01.mp4,test,rg_edc6d8664984,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0358,short,cam0358,processed_video/cam0358/clip01.mp4,train,rg_0a493fcb8885,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0359,short,cam0359,processed_video/cam0359/clip01.mp4,train,rg_b358cbd5f05f,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0360,short,cam0360,processed_video/cam0360/clip01.mp4,test,rg_d627a736d3e5,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0361,short,cam0361,processed_video/cam0361/clip01.mp4,train,rg_a4df7e395991,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0362,short,cam0362,processed_video/cam0362/clip01.mp4,test,rg_f8f3dfdd0769,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0363,short,cam0363,processed_video/cam0363/clip01.mp4,train,rg_2477bc1f40be,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0364,short,cam0364,processed_video/cam0364/clip01.mp4,train,rg_473045da56b3,R,Roads and parking areas,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0365,short,cam0365,processed_video/cam0365/clip01.mp4,train,rg_8f302d721363,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0366,short,cam0366,processed_video/cam0366/clip01.mp4,train,rg_8dc11f8cbd01,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0367,short,cam0367,processed_video/cam0367/clip01.mp4,train,rg_a336b97ce3b4,T,Railways and rail transit,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0368,short,cam0368,processed_video/cam0368/clip01.mp4,train,rg_70f5013bd5ad,T,Railways and rail transit,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0369,short,cam0369,processed_video/cam0369/clip01.mp4,train,rg_d0671e8284d4,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0370,short,cam0370,processed_video/cam0370/clip01.mp4,test,rg_50c4b944f6e4,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0371,short,cam0371,processed_video/cam0371/clip01.mp4,train,rg_066101005bbd,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0372,short,cam0372,processed_video/cam0372/clip01.mp4,train,rg_ad273b8863b5,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0373,short,cam0373,processed_video/cam0373/clip01.mp4,train,rg_59a8bea41c76,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0374,short,cam0374,processed_video/cam0374/clip01.mp4,train,rg_d3e385227128,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0375,short,cam0375,processed_video/cam0375/clip01.mp4,val,rg_24c3af8d721c,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0376,short,cam0376,processed_video/cam0376/clip01.mp4,train,rg_d6527f34d16e,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0377,short,cam0377,processed_video/cam0377/clip01.mp4,test,rg_f49d4119d7b6,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0378,short,cam0378,processed_video/cam0378/clip01.mp4,test,rg_06a2eb2f77f5,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0379,short,cam0379,processed_video/cam0379/clip01.mp4,train,rg_090d111e580d,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0380,short,cam0380,processed_video/cam0380/clip01.mp4,val,rg_834a7669f146,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0381,short,cam0381,processed_video/cam0381/clip01.mp4,train,rg_95878d14ea52,T,Railways and rail transit,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0382,short,cam0382,processed_video/cam0382/clip01.mp4,val,rg_cac77543279c,R,Roads and parking areas,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0383,short,cam0383,processed_video/cam0383/clip01.mp4,train,rg_9a01158a0e86,T,Railways and rail transit,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0384,short,cam0384,processed_video/cam0384/clip01.mp4,train,rg_25ef60933689,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0385,short,cam0385,processed_video/cam0385/clip01.mp4,test,rg_ede45ff8ced3,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0386,short,cam0386,processed_video/cam0386/clip01.mp4,train,rg_2c2bffb017f9,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0387,short,cam0387,processed_video/cam0387/clip01.mp4,train,rg_3f4f4dc2660e,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0388,short,cam0388,processed_video/cam0388/clip01.mp4,train,rg_b037d938188c,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0389,short,cam0389,processed_video/cam0389/clip01.mp4,train,rg_69dfd17e0d9c,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0390,short,cam0390,processed_video/cam0390/clip01.mp4,train,rg_346e0fb779f5,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0391,short,cam0391,processed_video/cam0391/clip01.mp4,val,rg_6ecb2b04feb6,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0392,short,cam0392,processed_video/cam0392/clip01.mp4,train,rg_af3c35a256eb,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0393,short,cam0393,processed_video/cam0393/clip01.mp4,test,rg_d516f8442d44,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0394,short,cam0394,processed_video/cam0394/clip01.mp4,train,rg_d9dea3fe987c,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0395,short,cam0395,processed_video/cam0395/clip01.mp4,val,rg_851eac18b2be,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0396,short,cam0396,processed_video/cam0396/clip01.mp4,test,rg_cfb6e760c126,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0397,short,cam0397,processed_video/cam0397/clip01.mp4,train,rg_338d50badf15,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0398,short,cam0398,processed_video/cam0398/clip01.mp4,val,rg_4543bce9bbc5,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0399,short,cam0399,processed_video/cam0399/clip01.mp4,test,rg_f2f2c8419452,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0400,short,cam0400,processed_video/cam0400/clip01.mp4,train,rg_1dc5c4df4fdf,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0401,short,cam0401,processed_video/cam0401/clip01.mp4,train,rg_2bf1e2299886,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0402,short,cam0402,processed_video/cam0402/clip01.mp4,val,rg_670cab27ec28,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0403,short,cam0403,processed_video/cam0403/clip01.mp4,train,rg_23a6097bbb2c,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0404,short,cam0404,processed_video/cam0404/clip01.mp4,train,rg_4e08c12f5b52,R,Roads and parking areas,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0405,short,cam0405,processed_video/cam0405/clip01.mp4,train,rg_7020d0e0c6e5,T,Railways and rail transit,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0406,short,cam0406,processed_video/cam0406/clip01.mp4,train,rg_3918c97b1e04,T,Railways and rail transit,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0407,short,cam0407,processed_video/cam0407/clip01.mp4,test,rg_89a3fc00a794,N,Vegetation and animal observation,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0408,short,cam0408,processed_video/cam0408/clip01.mp4,train,rg_9c7f9b6d08a0,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0409,short,cam0409,processed_video/cam0409/clip01.mp4,train,rg_7083288dcc3d,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0410,short,cam0410,processed_video/cam0410/clip01.mp4,train,rg_ea9ba81f8c58,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0411,short,cam0411,processed_video/cam0411/clip01.mp4,train,rg_1bc26657b487,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0412,short,cam0412,processed_video/cam0412/clip01.mp4,test,rg_cc73ac1a62b5,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0413,short,cam0413,processed_video/cam0413/clip01.mp4,train,rg_d9b98e08a4e1,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0414,short,cam0414,processed_video/cam0414/clip01.mp4,train,rg_d725374b8137,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0415,short,cam0415,processed_video/cam0415/clip01.mp4,val,rg_04fa29080a4c,R,Roads and parking areas,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0416,short,cam0416,processed_video/cam0416/clip01.mp4,train,rg_1c14ce4814b5,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0417,short,cam0417,processed_video/cam0417/clip01.mp4,test,rg_9ba55e7840ec,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0418,short,cam0418,processed_video/cam0418/clip01.mp4,val,rg_c7987b663d6d,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0419,short,cam0419,processed_video/cam0419/clip01.mp4,train,rg_31c051c22e1d,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0420,short,cam0420,processed_video/cam0420/clip01.mp4,train,rg_4e903c084af9,R,Roads and parking areas,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0421,short,cam0421,processed_video/cam0421/clip01.mp4,train,rg_7ff99f7c9ba9,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0422,short,cam0422,processed_video/cam0422/clip01.mp4,train,rg_47f5e2e12498,N,Vegetation and animal observation,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0423,short,cam0423,processed_video/cam0423/clip01.mp4,train,rg_db8d1fac9812,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0424,short,cam0424,processed_video/cam0424/clip01.mp4,train,rg_438a703f7505,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0425,short,cam0425,processed_video/cam0425/clip01.mp4,train,rg_ac5350568340,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0426,short,cam0426,processed_video/cam0426/clip01.mp4,train,rg_7d94194abfe4,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0427,short,cam0427,processed_video/cam0427/clip01.mp4,train,rg_fafe1177f3d8,R,Roads and parking areas,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0428,short,cam0428,processed_video/cam0428/clip01.mp4,train,rg_60f26f542c1b,T,Railways and rail transit,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0429,short,cam0429,processed_video/cam0429/clip01.mp4,train,rg_08569664bc77,N,Vegetation and animal observation,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0430,short,cam0430,processed_video/cam0430/clip01.mp4,train,rg_47c4a9817606,R,Roads and parking areas,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0431,short,cam0431,processed_video/cam0431/clip01.mp4,train,rg_5ddce40c4018,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0432,short,cam0432,processed_video/cam0432/clip01.mp4,train,rg_d02c98acca61,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0433,short,cam0433,processed_video/cam0433/clip01.mp4,val,rg_d13238e79d57,R,Roads and parking areas,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0434,short,cam0434,processed_video/cam0434/clip01.mp4,test,rg_28c2af322a38,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0435,short,cam0435,processed_video/cam0435/clip01.mp4,val,rg_d8686146bf45,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0436,short,cam0436,processed_video/cam0436/clip01.mp4,val,rg_f588d38ffc8a,R,Roads and parking areas,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0437,short,cam0437,processed_video/cam0437/clip01.mp4,val,rg_b29b673ad0cf,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0438,short,cam0438,processed_video/cam0438/clip01.mp4,val,rg_df4e09b59f75,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0439,short,cam0439,processed_video/cam0439/clip01.mp4,train,rg_29d484d470a1,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0440,short,cam0440,processed_video/cam0440/clip01.mp4,train,rg_df206bbaf788,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0441,short,cam0441,processed_video/cam0441/clip01.mp4,train,rg_d65d4fb13c93,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0442,short,cam0442,processed_video/cam0442/clip01.mp4,test,rg_53199e995822,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0443,short,cam0443,processed_video/cam0443/clip01.mp4,test,rg_742dfe2c2160,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0444,short,cam0444,processed_video/cam0444/clip01.mp4,train,rg_80ac43ab5d30,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0445,short,cam0445,processed_video/cam0445/clip01.mp4,train,rg_df4013fc38b5,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0446,short,cam0446,processed_video/cam0446/clip01.mp4,train,rg_c036ed3aede4,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0447,short,cam0447,processed_video/cam0447/clip01.mp4,train,rg_ca595d04fc50,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0448,short,cam0448,processed_video/cam0448/clip01.mp4,train,rg_00afe5914314,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0449,short,cam0449,processed_video/cam0449/clip01.mp4,train,rg_5968c2194d48,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0450,short,cam0450,processed_video/cam0450/clip01.mp4,train,rg_a70da0680d8e,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0451,short,cam0451,processed_video/cam0451/clip01.mp4,train,rg_9806ab5c7364,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0452,short,cam0452,processed_video/cam0452/clip01.mp4,val,rg_53018546751a,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0453,short,cam0453,processed_video/cam0453/clip01.mp4,train,rg_963d7759494d,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0454,short,cam0454,processed_video/cam0454/clip01.mp4,train,rg_a26208409005,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0455,short,cam0455,processed_video/cam0455/clip01.mp4,val,rg_eff306748d8a,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0456,short,cam0456,processed_video/cam0456/clip01.mp4,test,rg_ef3965ae69f3,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0457,short,cam0457,processed_video/cam0457/clip01.mp4,train,rg_a297f520ad72,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0458,short,cam0458,processed_video/cam0458/clip01.mp4,train,rg_f7f026dba435,W,Waterfront and water scenes,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0459,short,cam0459,processed_video/cam0459/clip01.mp4,train,rg_e3dc7c94583c,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0460,short,cam0460,processed_video/cam0460/clip01.mp4,train,rg_d32fb69c1feb,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0461,short,cam0461,processed_video/cam0461/clip01.mp4,train,rg_6e36a6be86ea,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0462,short,cam0462,processed_video/cam0462/clip01.mp4,train,rg_bbe2877260fc,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0463,short,cam0463,processed_video/cam0463/clip01.mp4,train,rg_05272d9ea707,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0464,short,cam0464,processed_video/cam0464/clip01.mp4,test,rg_feba9852c8f6,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0465,short,cam0465,processed_video/cam0465/clip01.mp4,train,rg_e83a175ab6c8,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0466,short,cam0466,processed_video/cam0466/clip01.mp4,train,rg_26564fcc18cc,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0467,short,cam0467,processed_video/cam0467/clip01.mp4,train,rg_e9b4c88ac9e8,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0468,short,cam0468,processed_video/cam0468/clip01.mp4,train,rg_263268a78b75,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0469,short,cam0469,processed_video/cam0469/clip01.mp4,train,rg_d5e1b1311e97,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0470,short,cam0470,processed_video/cam0470/clip01.mp4,test,rg_5b4a918482df,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0471,short,cam0471,processed_video/cam0471/clip01.mp4,train,rg_95c3ed8c6ec4,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0472,short,cam0472,processed_video/cam0472/clip01.mp4,train,rg_0bc451c427a9,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0473,short,cam0473,processed_video/cam0473/clip01.mp4,train,rg_3653ded9b3ed,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0474,short,cam0474,processed_video/cam0474/clip01.mp4,train,rg_33216ca88635,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0475,short,cam0475,processed_video/cam0475/clip01.mp4,train,rg_c9a028ad21e7,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0476,short,cam0476,processed_video/cam0476/clip01.mp4,train,rg_c9a028ad21e7,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0477,short,cam0477,processed_video/cam0477/clip01.mp4,train,rg_5c5b93f4e1b2,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0478,short,cam0478,processed_video/cam0478/clip01.mp4,train,rg_3e6f999dba67,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0479,short,cam0479,processed_video/cam0479/clip01.mp4,train,rg_5bdb97fc5085,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0480,short,cam0480,processed_video/cam0480/clip01.mp4,train,rg_1f7b63739f29,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0481,short,cam0481,processed_video/cam0481/clip01.mp4,train,rg_e4b6c6fc7f8f,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0482,short,cam0482,processed_video/cam0482/clip01.mp4,train,rg_2771fb2f1e91,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0483,short,cam0483,processed_video/cam0483/clip01.mp4,test,rg_ec874942910b,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0484,short,cam0484,processed_video/cam0484/clip01.mp4,val,rg_9af267461eaf,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0485,short,cam0485,processed_video/cam0485/clip01.mp4,test,rg_776263ed8ba1,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0486,short,cam0486,processed_video/cam0486/clip01.mp4,val,rg_5c1d063287b2,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0487,short,cam0487,processed_video/cam0487/clip01.mp4,train,rg_45428c4bf81c,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0488,short,cam0488,processed_video/cam0488/clip01.mp4,test,rg_69c09a3ca59d,P,Public buildings and recreational places,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0489,short,cam0489,processed_video/cam0489/clip01.mp4,val,rg_1ccca7a6e9fb,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0490,short,cam0490,processed_video/cam0490/clip01.mp4,train,rg_5571fc80c0ea,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0491,short,cam0491,processed_video/cam0491/clip01.mp4,val,rg_2586e96ed3bf,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0492,short,cam0492,processed_video/cam0492/clip01.mp4,train,rg_384f821b8e67,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0493,short,cam0493,processed_video/cam0493/clip01.mp4,test,rg_2fba1c717439,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0494,short,cam0494,processed_video/cam0494/clip01.mp4,test,rg_ab96a50dcb62,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0495,short,cam0495,processed_video/cam0495/clip01.mp4,train,rg_62d88ddff845,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0496,short,cam0496,processed_video/cam0496/clip01.mp4,val,rg_a8b7e7e2e7e9,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0497,short,cam0497,processed_video/cam0497/clip01.mp4,train,rg_f0e3dac188d2,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0498,short,cam0498,processed_video/cam0498/clip01.mp4,train,rg_60708134462d,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0499,short,cam0499,processed_video/cam0499/clip01.mp4,train,rg_c3ed0b64e398,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0500,short,cam0500,processed_video/cam0500/clip01.mp4,train,rg_f612d57e156c,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0501,short,cam0501,processed_video/cam0501/clip01.mp4,train,rg_c79bbbc82916,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0502,short,cam0502,processed_video/cam0502/clip01.mp4,test,rg_8e3d7dde0056,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0503,short,cam0503,processed_video/cam0503/clip01.mp4,val,rg_9975e38ab417,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0504,short,cam0504,processed_video/cam0504/clip01.mp4,test,rg_b77ad0cd2c1a,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0505,short,cam0505,processed_video/cam0505/clip01.mp4,val,rg_7c9d838cb0d9,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0506,short,cam0506,processed_video/cam0506/clip01.mp4,train,rg_8ecee2db71cf,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0507,short,cam0507,processed_video/cam0507/clip01.mp4,train,rg_cbcdde9f1cfe,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0508,short,cam0508,processed_video/cam0508/clip01.mp4,train,rg_02c93ac1427c,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0509,short,cam0509,processed_video/cam0509/clip01.mp4,train,rg_22aa8a611642,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0510,short,cam0510,processed_video/cam0510/clip01.mp4,val,rg_0fa23aaf6b76,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0511,short,cam0511,processed_video/cam0511/clip01.mp4,train,rg_dae9a8d4c5bc,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0512,short,cam0512,processed_video/cam0512/clip01.mp4,train,rg_ae7f938436f4,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0513,short,cam0513,processed_video/cam0513/clip01.mp4,test,rg_9451f5c40cba,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0514,short,cam0514,processed_video/cam0514/clip01.mp4,train,rg_ff34b41cb9a7,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0515,short,cam0515,processed_video/cam0515/clip01.mp4,train,rg_97cb0392b9ed,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0516,short,cam0516,processed_video/cam0516/clip01.mp4,val,rg_3735dba025b0,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0517,short,cam0517,processed_video/cam0517/clip01.mp4,train,rg_24d749c5d42c,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0518,short,cam0518,processed_video/cam0518/clip01.mp4,val,rg_2384237ac836,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0519,short,cam0519,processed_video/cam0519/clip01.mp4,train,rg_e2fc29963c23,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0520,short,cam0520,processed_video/cam0520/clip01.mp4,val,rg_6e6b1fbd94b5,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0521,short,cam0521,processed_video/cam0521/clip01.mp4,val,rg_af3a19241280,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0522,short,cam0522,processed_video/cam0522/clip01.mp4,train,rg_7e93305326c5,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0523,short,cam0523,processed_video/cam0523/clip01.mp4,test,rg_a63c8825a266,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0524,short,cam0524,processed_video/cam0524/clip01.mp4,test,rg_756de6c4c7da,R,Roads and parking areas,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0525,short,cam0525,processed_video/cam0525/clip01.mp4,train,rg_94a46d1243fd,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0526,short,cam0526,processed_video/cam0526/clip01.mp4,train,rg_b89bb6c20a66,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0527,short,cam0527,processed_video/cam0527/clip01.mp4,train,rg_2c9c00dce297,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0528,short,cam0528,processed_video/cam0528/clip01.mp4,train,rg_159903ae1afd,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0529,short,cam0529,processed_video/cam0529/clip01.mp4,train,rg_6bdd80f2917f,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0530,short,cam0530,processed_video/cam0530/clip01.mp4,test,rg_40874e33ad96,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0531,short,cam0531,processed_video/cam0531/clip01.mp4,train,rg_eacc9ae7909c,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0532,short,cam0532,processed_video/cam0532/clip01.mp4,train,rg_3a69cc39ddb2,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0533,short,cam0533,processed_video/cam0533/clip01.mp4,train,rg_4855fe7d63f9,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0534,short,cam0534,processed_video/cam0534/clip01.mp4,train,rg_7cc974e6d9e8,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0535,short,cam0535,processed_video/cam0535/clip01.mp4,train,rg_e9af40c66df0,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0536,short,cam0536,processed_video/cam0536/clip01.mp4,train,rg_438e9e40013a,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0537,short,cam0537,processed_video/cam0537/clip01.mp4,train,rg_9a448bcb5bcb,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0538,short,cam0538,processed_video/cam0538/clip01.mp4,train,rg_6806961b660f,T,Railways and rail transit,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0539,short,cam0539,processed_video/cam0539/clip01.mp4,test,rg_256fd1b4e117,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0540,short,cam0540,processed_video/cam0540/clip01.mp4,val,rg_a214d53fb82a,R,Roads and parking areas,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0541,short,cam0541,processed_video/cam0541/clip01.mp4,train,rg_54c02beed258,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p
+short/cam0542,short,cam0542,processed_video/cam0542/clip01.mp4,train,rg_142501041e7c,N,Vegetation and animal observation,accepted,compression_training_validation_or_test,3600,yuv420p
+short/cam0543,short,cam0543,processed_video/cam0543/clip01.mp4,train,rg_3ef26e02bef8,P,Public buildings and recreational places,unreviewed,compression_training_validation_or_test,3600,yuv420p

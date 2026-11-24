@@ -1,0 +1,11 @@
+{
+  "WORKSPACE": "/mnt/d/dataset/experiment_artifacts/server/mtsvcd_reproduction",
+  "DATASET_ROOT": "/mnt/d/dataset",
+  "VIMEO_ROOT": "/mnt/d/dataset/vimeo_septuplet",
+  "RT_WEIGHTS": "/mnt/d/dataset/models/DCVC-RT",
+  "TCM_WEIGHTS": "/mnt/d/dataset/models/DCVC-TCM",
+  "RT_PYTHON": "/absolute/path/to/rt/environment/bin/python",
+  "TCM_PYTHON": "/absolute/path/to/tcm/environment/bin/python",
+  "GPU4_UUID": "replace-with-physical-GPU-4-UUID",
+  "GPU5_UUID": "replace-with-physical-GPU-5-UUID"
+}
