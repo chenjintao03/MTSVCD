@@ -62,9 +62,7 @@ python tools/validate_splits.py --dataset-root /path/to/MTSVCD
 
 ## Codec projects and experiments
 
-Following the source-project organization of
-[SCVCD-5K](https://github.com/yuanhui0325/SCVCD-5K), codec implementations are under
-`Deep Learning-based/`:
+Codec implementations are under `Deep Learning-based/`:
 
 - [DCVC-RT](Deep%20Learning-based/DCVC-RT): the server's codec implementation and differentiable training path.
 - [DCVC-TCM](Deep%20Learning-based/DCVC-TCM): the server's codec implementation, with its fine-tuning adapter in `experiments/tcm_matched/`.
@@ -81,6 +79,6 @@ generated bitstreams are stored outside Git.
 
 ## Acknowledgments and licenses
 
-We acknowledge the authors of DCVC-RT, DCVC-TCM, and SCVCD-5K.
+We acknowledge the authors of DCVC-RT and DCVC-TCM.
 See the [license and source notes](docs/THIRD_PARTY.md) and the original
 `LICENSE.txt` / `NOTICE.txt` files in each codec directory.
