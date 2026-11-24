@@ -1,0 +1,2 @@
+# Preserve exported source bytes and published SHA-256 checksums across platforms.
+* -text
