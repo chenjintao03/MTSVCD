@@ -11,15 +11,13 @@ Both codec directories retain Microsoft's MIT `LICENSE.txt` and its
 `NOTICE.txt`, which includes notices for the CompressAI-derived code. Other
 copyright and license notices embedded in source headers remain in place.
 `UPSTREAM_README.md` preserves the server's upstream project instructions.
-The RT differentiable training path and the experiment adapters contain local
-research changes; they should not be described as an official author release
-of training code.
+The RT differentiable training path contains local research changes and should
+not be described as an official author release of training code.
 
 DCVC-TCM's CMake build templates fetch pybind11 and ryg_rans from their upstream
 repositories. DCVC-RT uses pybind11 and custom CUDA extensions. Consult
 the retained build files and upstream instructions for their pinned versions
-and license terms. `pytorch-msssim` is installed as a dependency rather than
-redistributed as an unlicensed vendor copy.
+and license terms. `pytorch-msssim` is installed as a dependency.
 
 The directory organization follows the example of
 [SCVCD-5K](https://github.com/yuanhui0325/SCVCD-5K). No SCVCD-5K dataset videos

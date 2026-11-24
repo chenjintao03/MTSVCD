@@ -13,7 +13,7 @@ long-term, sparsely sampled sequences for observing changes in fixed-view scenes
 **Extraction code / 提取码: `gj2k`**
 
 The video and image data are distributed through the download link. This GitHub
-repository contains the split lists, metadata, codec source projects, and experiment configurations.
+repository contains the split lists, metadata, codec source projects, and paper figures.
 
 | Subset | Sequences | Sampling | Use |
 |---|---:|---|---|
@@ -64,31 +64,30 @@ python tools/validate_splits.py --dataset-root /path/to/MTSVCD
 Codec implementations are under `Deep Learning-based/`:
 
 - [DCVC-RT](Deep%20Learning-based/DCVC-RT): the server's codec implementation and differentiable training path.
-- [DCVC-TCM](Deep%20Learning-based/DCVC-TCM): the server's codec implementation, with its fine-tuning adapter in `experiments/tcm_matched/`.
-- [Experiment sources and configurations](experiments): RT/TCM adaptation, four-dataset RT comparisons, validation selection, and native-YUV420 bitstream evaluation.
-- [Reproduction instructions](docs/REPRODUCIBILITY.md): environments, pretrained weights, paths, preparation, and execution order.
+- [DCVC-TCM](Deep%20Learning-based/DCVC-TCM): the server's codec implementation.
+- [Codec setup](docs/REPRODUCIBILITY.md): environments, pretrained weights, and build instructions.
 - [Server-source provenance and SHA-256 identities](metadata/server_source_provenance.json).
 
 The codec projects derive from [Microsoft DCVC](https://github.com/microsoft/DCVC).
-Their original licenses and notices are retained in each project. Experimental
-scripts use path and GPU-UUID templates, rendered into a separate workspace by
-`tools/prepare_experiments.py`. Datasets, pretrained/fine-tuned weights, and
-generated bitstreams are stored outside Git.
+Their original licenses and notices are retained in each project. Datasets,
+model weights, and generated bitstreams are stored outside Git.
 
 ## Experimental results
 
+The [experiments directory](experiments) contains the following paper figures.
+
 **Codec comparison.** Rate–distortion performance on the MTSVCD surveillance test set.
 
-![Codec comparison](assets/figures/codec_comparison.png)
+![Codec comparison](experiments/codec_comparison.png)
 
 **Fine-tuning with different training datasets.** PSNR, MS-SSIM, and detector-output consistency versus bpp.
 AP measures consistency with pseudo-labels rather than ground-truth detection accuracy.
 
-![Training-dataset comparison](assets/figures/training_dataset_comparison.png)
+![Training-dataset comparison](experiments/training_dataset_comparison.png)
 
 **Before and after fine-tuning.** Rate–distortion curves of DCVC-RT and DCVC-TCM.
 
-![Before and after fine-tuning](assets/figures/before_after_finetuning.png)
+![Before and after fine-tuning](experiments/before_after_finetuning.png)
 
 ## Acknowledgments and licenses
 
